@@ -16,9 +16,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "Oreja de palo duro",
       uso: "Para escribir-ES- ",
       images: [
-        { url: "/images/ganoderma sp/Cepa 1.jpg", caption: "Figura A" },
-        { url: "/images/ganoderma sp/Cepa 1-6.jpg", caption: "Figura B" },
-        { url: "/images/ganoderma sp/Cepa 1-5 (2).jpg", caption: "Figura C" },
+        { url: "/images/ganoderma/Cepa 1.jpg", caption: "Figura A" },
+        { url: "/images/ganoderma/Cepa 1-6.jpg", caption: "Figura B" },
+        { url: "/images/ganoderma/Cepa 1-5 (2).jpg", caption: "Figura C" },
       ],
     },
 
