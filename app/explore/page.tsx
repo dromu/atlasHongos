@@ -2,6 +2,11 @@ import { getAllFungi } from "@/lib/api"
 import Link from "next/link"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 import { BackButton } from "@/components/back-button"
+import { Home } from "lucide-react"
+import { Button } from "@/components/ui/button"
+
+
+
 
 export default async function ExplorePage() {
   const fungi = await getAllFungi()
@@ -14,18 +19,42 @@ export default async function ExplorePage() {
         {fungi.map((fungus) => (
           <Link key={fungus.id} href={`/fungus/${fungus.id}`}>
             <Card className="hover:shadow-lg transition-shadow">
+              
               <CardHeader>
+                
+                <CardTitle style={{ color: "#404040" }}>Colección {fungus.id}</CardTitle>
                 <CardTitle className="text-primary">{fungus.name}</CardTitle>
+                
               </CardHeader>
               <CardContent>
+  
                 <p className="text-muted italic mb-2">{fungus.scientificName}</p>
-                {/* <p className="text-sm text-foreground">{fungus.description.substring(0, 100)}...</p> */}
+                
               </CardContent>
+
+              
+              
             </Card>
+
+            
           </Link>
+
+          
         ))}
+        
       </div>
+
+    
+      <CardContent className="mt-4"> {/* Agrega margen superior al contenedor del botón */}
+        <Button asChild>
+          <Link href="/">
+            <Home className="mr-2 h-4 w-4" /> Volver a la Página Principal
+          </Link>
+        </Button>
+      </CardContent>
+      
     </div>
+    
   )
 }
 

@@ -16,6 +16,7 @@ export default async function FungusPage({ params }: { params: { id: string } })
       <BackButton />
       <Card className="mb-8">
         <CardHeader>
+        <CardTitle style={{ color: "#404040" }}>Colección {fungus.id}</CardTitle>
           <CardTitle className="text-3xl font-bold text-primary">{fungus.name}</CardTitle>
           <p className="text-xl italic text-muted">{fungus.scientificName}</p>
         </CardHeader>
