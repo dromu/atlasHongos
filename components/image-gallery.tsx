@@ -11,7 +11,9 @@ interface ImageGalleryProps {
 }
 
 export default function ImageGallery({ images }: ImageGalleryProps) {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
+  /* eslint-disable @typescript-eslint/no-unused-vars */
   const [scale, setScale] = useState(1)
 
   const handleZoomIn = () => setScale((prev) => Math.min(prev * 1.2, 3))

@@ -14,7 +14,7 @@ export default function FungusCard({ fungus }: FungusCardProps) {
           <CardTitle>{fungus.name}</CardTitle>
         </CardHeader>
         <CardContent>
-          <p>{fungus.description.substring(0, 100)}...</p>
+          {/* <p>{fungus.description.substring(0, 100)}...</p> */}
         </CardContent>
       </Card>
     </Link>
