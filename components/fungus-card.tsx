@@ -5,10 +5,13 @@ import type { Fungus } from "@/types/fungus"
 
 interface FungusCardProps {
   fungus: Fungus
-  collectionNumber: number
+ 
 }
 
-export default function FungusCard({ fungus, collectionNumber }: FungusCardProps) {
+
+
+export default function FungusCard({ fungus}: FungusCardProps) {
+  
   return (
     <Link href={`/fungus/${fungus.id}`}>
       <Card className="hover:shadow-lg transition-shadow">
