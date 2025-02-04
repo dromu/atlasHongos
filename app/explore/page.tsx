@@ -2,6 +2,12 @@ import { getAllFungi } from "@/lib/api"
 import FungusCard from "@/components/fungus-card"
 import { BackButton } from "@/components/back-button"
 
+
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+import { Home } from "lucide-react"
+
+
 export default async function ExplorePage() {
   const fungi = await getAllFungi()
 
@@ -14,7 +20,20 @@ export default async function ExplorePage() {
           <FungusCard key={fungus.id} fungus={fungus}  />
         ))}
       </div>
+
+      <Button asChild className="mt-4 bg-primary text-primary-foreground hover:bg-primary/90">
+  <Link href="/">
+    <Home className="mr-2 h-10 w-10" /> Volver a la Página Principal
+  </Link>
+</Button>
+
     </div>
+    
+        
+    
+
   )
+  
+
 }
 

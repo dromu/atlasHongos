@@ -10,7 +10,9 @@ export default function AuthorPage() {
       <BackButton />
       <Card className="mb-8">
         <CardHeader>
-          <CardTitle className="text-xl font-bold">Sobre el Autor</CardTitle>
+          <CardTitle className="text-3xl font-bold text-primary">Sobre el Autor</CardTitle>
+
+          
         </CardHeader>
         <CardContent>
 
