@@ -32,37 +32,48 @@ export default function Home() {
             Universidad del Cauca 
           </p>
 
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-col items-center gap-4">
             <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
               <Link href="/explore">Explorar Hongos</Link>
             </Button>
-            <Button
-              asChild
-              variant="outline"
-              size="lg"
-              className="bg-primary text-primary-foreground hover:bg-primary/90"
-            >
-              <Link href="/author">Autor</Link>
-            </Button>
-            <Button
-              asChild
-              variant="outline"
-              size="lg"
-              className="bg-primary text-primary-foreground hover:bg-primary/90"
-            >
-              <Link href="/prologue">Prólogo</Link>
-            </Button>
-            <Button
-              asChild
-              variant="outline"
-              size="lg"
-              className="bg-primary text-primary-foreground hover:bg-primary/90"
-            >
-              <Link href="/dedication">Dedicatoria</Link>
-            </Button>
+            <div className="flex flex-wrap justify-center gap-2">
+              <Button
+                asChild
+                variant="outline"
+                size="lg"
+                className="bg-primary text-primary-foreground hover:bg-primary/90"
+              >
+                <Link href="/author">Autor</Link>
+              </Button>
+              <Button
+                asChild
+                variant="outline"
+                size="lg"
+                className="bg-primary text-primary-foreground hover:bg-primary/90"
+              >
+                <Link href="/prologue">Prólogo</Link>
+              </Button>
+              <Button
+                asChild
+                variant="outline"
+                size="lg"
+                className="bg-primary text-primary-foreground hover:bg-primary/90"
+              >
+                <Link href="/dedication">Dedicatoria</Link>
+              </Button>
+              <Button
+                asChild
+                variant="outline"
+                size="lg"
+                className="bg-primary text-primary-foreground hover:bg-primary/90"
+              >
+                <Link href="/agradecimientos">Agradecimientos</Link>
+              </Button>
+            </div>
           </div>
         </CardContent>
       </Card>
     </main>
   )
 }
+

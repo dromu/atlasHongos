@@ -1,20 +1,48 @@
 import Link from "next/link"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import Image from "next/image"
+import { Card, CardContent, CardTitle } from "@/components/ui/card"
 import type { Fungus } from "@/types/fungus"
 
 interface FungusCardProps {
   fungus: Fungus
+  collectionNumber: number
 }
 
-export default function FungusCard({ fungus }: FungusCardProps) {
+export default function FungusCard({ fungus, collectionNumber }: FungusCardProps) {
   return (
     <Link href={`/fungus/${fungus.id}`}>
       <Card className="hover:shadow-lg transition-shadow">
-        <CardHeader>
-          <CardTitle>{fungus.name}</CardTitle>
-        </CardHeader>
-        <CardContent>
-          {/* <p>{fungus.description.substring(0, 100)}...</p> */}
+        <CardContent className="pt-4">
+          <div className="flex flex-col">
+            <div className="flex mb-2">
+              <div className="flex-grow">
+              <p className="text-xs text-primary mt">Colección {fungus.id}</p>
+                <CardTitle className="text-lg font-semibold mb-2">{fungus.name}</CardTitle>
+                <p className="text-sm text-muted-foreground">{fungus.scientificName.substring(0, 100)}...</p>
+                
+              </div>
+              <div className="ml-4 w-24 h-24 relative overflow-hidden rounded-md">
+                <Image
+                  src={fungus.images[0]?.url || "/placeholder.svg"}
+                  alt={`${fungus.name} - Imagen principal`}
+                  layout="fill"
+                  objectFit="cover"
+                />
+              </div>
+            </div>
+            <div className="flex space-x-2 overflow-x-auto">
+              {fungus.images.slice(1, 4).map((image, index) => (
+                <div key={index} className="w-12 h-12 relative flex-shrink-0 overflow-hidden rounded-md">
+                  <Image
+                    src={image.url || "/placeholder.svg"}
+                    alt={`${fungus.name} - Imagen ${index + 2}`}
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
         </CardContent>
       </Card>
     </Link>
