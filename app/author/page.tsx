@@ -21,7 +21,7 @@ export default function AuthorPage() {
         </p>
 
           <img
-            src="/images/general/fabiolaFoto.png" 
+            src="/images/general/foto dr Fabiola.png" 
             alt="Imagen representativa de hongos"
             className="w-1/5 h-auto mb-1 mx-auto"
           />
