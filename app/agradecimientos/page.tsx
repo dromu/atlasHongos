@@ -26,6 +26,10 @@ export default function AgradecimientosPage() {
         </p>
 
         <p className="mb-4 text-foreground text-justify mx-auto max-w-3xl">
+        A mi codirectora de Tesis, doctora Olga Lucia Sanabria-D, por motivarme a ingresar al doctorado de Etnobiología y Estudios Bioculturales y mostrarme otra nueva dimensión de aprendizaje con las comunidades, por su acompañamiento permanente y ofrecerme su valiosa amistad.
+        </p>
+
+        <p className="mb-4 text-foreground text-justify mx-auto max-w-3xl">
         A los profesores del doctorado en Etnobiología y Estudios Bioculturales, Doctores Olga Lucia Sanabria-D, Apolinar Figueroa-C, Javier Tobar, Carlos Enrique Osorio-C, Hugo Portela-G y demás profesores invitados nacionales e internacionales por introducirme a otras ciencias, paradigmas, metodologías de acercamiento al conocimiento tradicional de las comunidades.
         </p>
 
