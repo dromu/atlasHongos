@@ -28,10 +28,10 @@ export default function RootLayout({
     <html lang="en">
       
       <head>
-        <link rel="icon" href="/faviconFungus.ico" sizes="any" />
+        <link rel="icon" href="/images/general/faviconFungus.ico" sizes="any" />
       </head>
 
-      <body>{children}</body>
+      <body>{children}</body>  
     </html>
   )
 }
@@ -40,7 +40,7 @@ export default function RootLayout({
 // export default function RootLayout({
 //   children,
 // }: Readonly<{
-//   children: React.ReactNode;
+//   children: React.ReactNode;  f
 // }>) {
 //   return (
 //     <html lang="en">
