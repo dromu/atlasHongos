@@ -20,7 +20,7 @@ export default function FungusCard({ fungus}: FungusCardProps) {
             <div className="flex mb-2">
               <div className="flex-grow">
               <p className="text-xs text-primary mt">Colección {fungus.id}</p>
-                <CardTitle className="text-lg font-semibold mb-2">{fungus.name}</CardTitle>
+                <CardTitle className="text-xl font-semibold mb-2 italic">{fungus.name}</CardTitle>
                 <p className="text-sm text-muted-foreground">{fungus.scientificName.substring(0, 100)}...</p>
                 
               </div>

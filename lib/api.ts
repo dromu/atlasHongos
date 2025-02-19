@@ -547,11 +547,11 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMacro: "Figura A. Píleo de 3 a 5 cm de diámetro, infundibuliforme; superficie seca, color café rojizo oscura (oac638) cuando joven y café más claro (oac538) cuando vieja; margen rimosa. Contexto menor a 0,2 cm de grosor, carnoso, blanco. Olor y sabor no característicos. Lamelas decurrentes a subdecurrentes, blancas cuando jóvenes y crema amarillosas (oac857) cuando viejas; margen ondulada. Lamélulas de 2 longitudes. Estípite de 0,3 a 0,5 cm de diámetro cerca al ápice, de 2 a 3,7 cm de longitud, central, de cilíndrico a medianamente clavado; superficie seca, estrigosa cuando joven, casi hirsuta cuando vieja; interior blanco, sólido.",
       descriptionMicro: "Figura B-KOH. basidiosporas hialinas de 5-9x2 µm",
       habitat: "Creciendo gregario sobre madera en descomposición",
-      CommonName: "hongo de palo viejo",
+      CommonName: "Hongo de palo viejo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 31A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 31B.jpg", caption: "Figura B"},
       ]
     },
     {
@@ -563,12 +563,12 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMacro: "Figuras A-B. Píleo marrón pálido, que luego se oscureció con diámetro de hasta 30 cm. Presenta escamas aplanadas y oscuras, que irradian desde el centro, donde se sitúa un umbón oscuro. Láminas libres, blancas y apretadas. Estípite entre 15 a 20 cm largo con un anillo doble también cubierto de escamas, y que se separa fácilmente del píleo.",
       descriptionMicro: "Figura C-KOH. Esporas de 12x8 µm de diámetro (100x)",
       habitat: "No especificado",
-      CommonName: "hongo del suelo",
+      CommonName: "Hongo del suelo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 32A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 32B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 32C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -580,12 +580,12 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMacro: "Figuras A-B. Cuerpo fructífero piriforme de 4 cm de diámetro, color café claro que se oscurece cuando madura.",
       descriptionMicro: "Figura C-Tinciòn de Melzer Esporas oscuras de 3x3µm de diámetro (100x)",
       habitat: "No especificado",
-      CommonName: "pedo de duende o pedorro",
-      uso: "medicinal (hemostático)",
+      CommonName: "Pedo de duende o pedorro",
+      uso: "Medicinal (hemostático)",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 33A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 33B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 33C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -597,11 +597,11 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMacro: "Figura A. Los carpóforos tienen forma redondeada, de entre 2 y 5 cm de diámetro y entre 4 y 9 de altura. El exoperidio o capa externa es blanquecino-amarillo.",
       descriptionMicro: "Figura B-Tinciòn de Melzer. Esporas de 3x3µm de diámetro (100x).",
       habitat: "No especificado",
-      CommonName: "hongo del suelo",
+      CommonName: "Hongo del suelo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 34A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 34B.jpg", caption: "Figura B"},
       ]
     },
     {
@@ -613,11 +613,11 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMacro: "Figura A. El nombre de este hongo se refiere a la forma externa del peridio. En la madurez, la capa externa del cuerpo fructificante se divide en segmentos hacia afuera, que, a su vez, crea un patrón en forma de estrella en el suelo. El peridio interior es un saco de esporas; mientras que, en algunas especies, el peridio externo se separa de una capa intermedia, haciendo que el saco de esporas se acerque a la tierra. Si el peridio exterior se abre cuando está mojado y se cierra cuando se seca, se describe como higroscópico.",
       descriptionMicro: "Figura B-KOH. Esporas de 4x4µm de diámetro con espiculas",
       habitat: "No especificado",
-      CommonName: "hongo del suelo",
+      CommonName: "Hongo del suelo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 35A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 35B.jpg", caption: "Figura B"},
       ]
     },
     {
@@ -628,12 +628,13 @@ export async function getAllFungi(): Promise<Fungus[]> {
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
       descriptionMacro: "Figuras A-B. Píleo de 10 cm de diámetro, de forma inicialmente convexa. Es de color pardo oscuro, cuando se seca adquirió tonos ocre-amarillentos. Su superficie es muy viscosa con borde es regular. El himenio tiene poros pequeños y angulosos de color amarillo. Estípite corto de 5 cm de largo",
       descriptionMicro: "Figura B. Las esporas son alargadas de 7-10x3µm, de paredes lisas, redondeadas por ambos extremos y con un pequeño apículo en uno de los extremos por donde se sujetaba al basidio y en muchos casos una gruesa vacuola en su interior.",
-      habitat: "disperso, crece en suelo-ectomicorrizogeno de pino",
-      CommonName: "pambazo",
-      uso: "alimenticio",
+      habitat: "Disperso, crece en suelo-ectomicorrizogeno de pino",
+      CommonName: "Pambazo",
+      uso: "Alimenticio",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 36A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 36B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 36C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -643,13 +644,14 @@ export async function getAllFungi(): Promise<Fungus[]> {
       fechaRecol: "29/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
       descriptionMacro: "El nombre se refiere a la forma externa del peridio. En la madurez, la capa externa del cuerpo fructificante se divide en segmentos hacia afuera, que, a su vez, crea un patrón en forma de estrella en el suelo. El peridio interior es un saco de esporas; mientras que, en algunas especies, el peridio externo se separa de una capa intermedia, haciendo que el saco de esporas se acerque a la tierra. Si el peridio exterior se abre cuando está mojado y se cierra cuando se seca, se describe como higroscópico.",
-      descriptionMicro: "esporas de 4x4µm de diámetro con espiculas",
+      descriptionMicro: "Esporas de 4x4µm de diámetro con espiculas",
       habitat: "No especificado",
-      CommonName: "hongo del suelo",
+      CommonName: "Hongo del suelo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 37A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 37B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 37C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -660,12 +662,13 @@ export async function getAllFungi(): Promise<Fungus[]> {
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
       descriptionMacro: "Figura A. sésil, imbricado, de 2.5-5 cm, con un radio de 1-2 cm aproximadamente, grosor de 2 mm. Forma flabeliforme, abriéndose a partir del sustrato, de color blanco a negro, pasando por tonos grises de distintos matices. De superficie vellosa en los especímenes jóvenes, quedando glabra en ejemplares adultos, con el borde ondulado de manera irregular. Himenio de color blanquecino a marrón en la etapa adulta, de 1-3 poros angulares por mm.",
       descriptionMicro: "Figura B-Tinciòn de Melzer. Basidios con esporas de 3x3µm de diámetro (100x).",
-      habitat: "sobre tronco de árbol, comúnmente en árboles de pino",
-      CommonName: "hongo de tronco",
+      habitat: "Troncos de árboles",
+      CommonName: "Hongo de tronco",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 38A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 38B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 38C.jpg", caption: "Figura C"},
       ]
     },
     
@@ -681,8 +684,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "hongo de palo viejo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 39A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 39B.jpg", caption: "Figura B"},
       ]
     },
     {
@@ -694,11 +697,11 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMacro: "Figura A. Píleo convexo algo deprimido de 4 cm, sombrero. Su cutícula es finamente escamosa, de color pardo rojizo con un tono ocráceo más pálido. El margen es estriado por transparencia. Láminas adnatas o ligeramente decurrentes de color rosa muy claro, relativamente separadas entre sí y con laminillas intercaladas, son bastante gruesas y suelen ser pulverulentas por la abundante esporada blanca que se posa sobre ellas. Estípite alargado con respecto al diámetro del sombrero. Se presenta longitudinalmente acanalado y bastante fibriloso, de color similar al del sombrero o algo más oscuro, con la unión micelial blanquecina.",
       descriptionMicro: "Figura B-KOH. Esporas de 10x 6-8 µm de diámetro (100x).",
       habitat: "No especificado",
-      CommonName: "hongo del suelo",
+      CommonName: "Hongo del suelo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 40A.jpg", caption: "Figura A"},
+        // { url: "/images/fungusCol/Cepa 40B.jpg", caption: "Figura B"},
       ]
     },
     {
