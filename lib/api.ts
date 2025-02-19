@@ -16,9 +16,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "Oreja de palo duro",
       uso: "Para escribir-ES- ",
       images: [
-        { url: "/images/ganoderma/Cepa 1.jpg", caption: "Figura A" },
-        { url: "/images/ganoderma/Cepa 1-6.jpg", caption: "Figura B" },
-        { url: "/images/ganoderma/Cepa 1-5 (2).jpg", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 1A.jpg", caption: "Figura A" },
+        { url: "/images/fungusCol/Cepa 1B.jpg", caption: "Figura B" },
+        { url: "/images/fungusCol/Cepa 1C.jpg", caption: "Figura C" },
       ],
     },
 
@@ -34,9 +34,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "Pedo de bruja",
       uso: "Medicinal (hemostático)",
       images: [
-        { url: "/images/sclerodermaCitrinum/Scleroderma.jpeg", caption: "Figura A" },
-        { url: "/images/sclerodermaCitrinum/Scleroderma.jpg", caption: "Figura B" },
-        { url: "/images/sclerodermaCitrinum/002 esporas.jpg", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 2A.jpeg", caption: "Figura A" },
+        { url: "/images/fungusCol/Cepa 2B.jpg", caption: "Figura B" },
+        { url: "/images/fungusCol/Cepa 2C.jpg", caption: "Figura C" },
       ],
     },
 
@@ -52,9 +52,10 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "Hongo de palo viejo",
       uso: "No uso por la comunidad",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 3A.jpg", caption: "Figura A" },
+        { url: "/images/fungusCol/Cepa 3B.jpg", caption: "Figura B" },
+        { url: "/images/fungusCol/Cepa 3C.jpg", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 3D.jpg", caption: "Figura D" },
       ],
     },
 
@@ -70,9 +71,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "Oreja de palo duro.",
       uso: "Para escribir-ES-",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 4A.jpg", caption: "Figura A" },
+        { url: "/images/fungusCol/Cepa 4B.jpg", caption: "Figura B"  }
+        
       ],
     },
 
@@ -83,14 +84,14 @@ export async function getAllFungi(): Promise<Fungus[]> {
       fechaRecol: "05/11/2019",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
       descriptionMacro: "Figura A. basidiocarpo sin estípite, píleo hasta 17 cm de diámetro y hasta 3 cm de grosor, consistencia leñosa, color inicia con un café claro(oac644) y la parte más superior café más oscuro(aoc686), el himenio de un color marrón claro (aoc679).",
-      descriptionMicro: "Figura B-Tinciòn de Melzer: basidiosporas globosa-subglobosa, marrón rojizas con pared gruesa y lisas, tamaño de espora: 3 x 6 ųm. Hifas degenerativas de pared gruesa con septos simples." ,
+      descriptionMicro: "Figura B-Tinción de Melzer: basidiosporas globosa-subglobosa, marrón rojizas con pared gruesa y lisas, tamaño de espora: 3 x 6 ųm. Hifas degenerativas de pared gruesa con septos simples." ,
       habitat: "Gregario, crece en madera",
       CommonName: "Oreja de palo duro",
-      uso: "No uso por la comunidad",
+      uso: "Para escribir-ES",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 5A.jpg", caption: "Figura A" },
+        { url: "/images/fungusCol/Cepa 5B.jpg", caption: "Figura B"  },
+        { url: "/images/fungusCol/Cepa 5C.jpg", caption: "Figura C"  },
       ],
     },
 
@@ -104,11 +105,11 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C. esporas: 11 x 11 ųm (100x) color café espiculadas, amiloides en tinción de Melzer (100x)." ,
       habitat: "Terrestre, bosque",
       CommonName: "Pedo de bruja",
-      uso: "medicinal (hemostático).",
+      uso: "Medicinal (hemostático).",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 6A.jpg", caption: "Figura A" },
+        { url: "/images/fungusCol/Cepa 6B.jpg", caption: "Figura B"  },
+        { url: "/images/fungusCol/Cepa 6C.jpg", caption: "Figura C"  },
       ],
     },
 
@@ -124,9 +125,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "Hongo de la boñiga-sombrilla",
       uso: "No uso",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 7A.jpg", caption: "Figura A" },
+        { url: "/images/fungusCol/Cepa 7B.jpg", caption: "Figura B"  },
+      
       ],
     },
 
@@ -143,9 +144,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "Hongo de palos caídos, podridos, viejos, secos.",
       uso: "No uso",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 8A.jpg", caption: "Figura A" },
+        { url: "/images/fungusCol/Cepa 8B.jpg", caption: "Figura B"  },
+        { url: "/images/fungusCol/Cepa 8C.jpg", caption: "Figura C"  },
       ],
     },
 
@@ -158,13 +159,13 @@ export async function getAllFungi(): Promise<Fungus[]> {
       localidad: "Colombia, Cauca, Puracé, Vereda San Alfonso",
       descriptionMacro: "Figura A. hongo plecrotoide no estipitado con inserción lateral. Píleo: ejemplares con ancho de 1,1 cm a 8,7 cm y largo de 1,8 – 8,2 cm, grosor de 5-10 mm. Forma flabeliforme a pulmonada. Superficie: de cutícula seca, lisa a corrugada, color gris plomo, cuando más seca se torna blancuzco o naranja. Margen crodado y ondulado, contexto blanco de 1- 1,4 mm de grosor, espumoso. Consistencia membranosa- carnosa. Píleo higrafano, con intersección lateral. Himenoforo lamelado, láminas blancas apretadas de 3-6 mm de alto, margen irregular crodada. Láminas desde el margen hasta punto de inserción del basidioma al sustrato. Forma de lámina segmentiforme. Láminas higrofanas, lamelas de 3 series.",
       descriptionMicro: "Figura B. basidiosporas baciliformes hialinas en KOH de 10x3µl (100x).",
-      habitat: "tronco caído al lado del camino entre maleza ",
+      habitat: "Tronco caído al lado del camino entre maleza ",
       CommonName: "kallambas/callambas, orejas de palo",
       uso: "Alimenticio",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 9A.jpg", caption: "Figura A" },
+        { url: "/images/fungusCol/Cepa 9B.jpg", caption: "Figura B"  },
+       
       ],
     },
 
@@ -180,9 +181,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "kallambas/callambas, orejas de palo",
       uso: "Alimenticio",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 10A.jpg", caption: "Figura A" },
+        { url: "/images/fungusCol/Cepa 10B.jpg", caption: "Figura B"  },
       ],
     },
 
@@ -193,14 +193,13 @@ export async function getAllFungi(): Promise<Fungus[]> {
       fechaRecol: "25/01/2020",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico.",
       descriptionMacro: "Figura A. píleo: 12 x10, 13x14,4x6, 5x6 cm, infundibuliforme con consistencia correosa, superficie de color blanco con tonos grisáceo medio, superficie seca, opaca y fibrilosa, con margen amarillo oscuro, ondulado, lobulado levantado, rasgado con la edad. Contexto: hasta 1,2 cm de grosor, color blanco puro, carnoso, glabro. Lamelas: 0,8 – 1 cm de alto, segmentiforme, decurrente, subdistantes, de color blanco crema, margen entero, algunos enrodado, con lamelulas de varias longitudes. Estípite: 4,5 – 10 cm de longitud, 0,8 cm de diámetro cerca del ápice 1,4 cm en la parte media, 1,5 m en la base, central o excéntrico, consistencia correosa, con colora con la superficie del píleo, el borde tiende a cambiar a amarillo ocre.",
-      descriptionMicro: "Figura B. esporas elipsoidales de 8x3 µm de diámetro, lalargadas con apícula lateral, de pared fina y con muy ligero contenido en su interiorHabito y hábitat: agrupado con basidiocarpos en diferentes estados de maduración-crecimiento en troncos de árbol en descomposición.",
+      descriptionMicro: "Figura B. esporas elipsoidales de 8x3 µm de diámetro, lalargadas con apícula lateral, de pared fina y con muy ligero contenido en su interior. Habito y hábitat: Agrupado con basidiocarpos en diferentes estados de maduración-crecimiento en troncos de árbol en descomposición.",
       habitat: "Tronco muerto de pie, al borde de camino, en un barranco. Hábito: fistulado o cespitoso. ",
       CommonName: "kallambas/callambas, orejas de palo",
       uso: "Alimenticio",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 11A.jpg", caption: "Figura A" },
+        { url: "/images/fungusCol/Cepa 11B.jpg", caption: "Figura B"  },
       ],
     },
 
@@ -211,14 +210,13 @@ export async function getAllFungi(): Promise<Fungus[]> {
       fechaRecol: "25/01/2020",
       localidad: "Colombia, Cauca, Puracé, Vereda San Alfonso",
       descriptionMacro: "Figura A. Píleo 1.4-5.4 cm de diámetro, campanulado a umbonado, de superficie lisa, húmedo, brillante de color amarillo hacia el centro y más pálido hacia el margen. Cambio a azul con el tacto. Estípite 3.0-8.5 cm de longitud",
-      descriptionMicro: "Figura B-Tinciòn de Melzer: esporas de 12-20 x 7-10 (100x) de color café lisas de pared gruesa.",
+      descriptionMicro: "Figura B-Tinción de Melzer: esporas de 12-20 x 7-10 (100x) de color café lisas de pared gruesa.",
       habitat: "Gregario, crece en excreta de ganado. ",
       CommonName: "Hongo de excreta de ganado-sombrilla",
       uso: "No uso",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 12A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 12B.jpg", caption: "Figura B"},
       ],
     },
 
@@ -234,9 +232,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "Pedo de bruja",
       uso: "Medicinal (hemostático)",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 13A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 13B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 13C.jpg", caption: "Figura C"},
       ],
     },
     
@@ -249,12 +247,12 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMacro: "Figura A-B. Pileo de 2 a 5 cm de diámetro, campanulado al principio para luego hacerse convexo o aplanado, obtusamente mamelonado, con el margen algo apendiculado, flocoso; cutícula lisa, mate, de color amarillo sobre fondo blanco. Láminas libres, de color blanco o blanco cremoso. Pie de 3 - 6 x 0.3 - 0.6 mm, frágil, cilíndrico, hueco, de color blanco para volverse rosado, especialmente en la base.",
       descriptionMicro: "Figura C-KOH. Esporas elipsoidales de tamaño 10-13x 7-8 µl, de paredes lisas y con numerosas gotitas de grasa en su interior, con poro germinativo pequeño pero evidente.",
       habitat: "Disperso, crece en suelo",
-      CommonName: "hongo del suelo",
+      CommonName: "Hongo del suelo",
       uso: "No uso",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 14A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 14B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 14C.jpg", caption: "Figura C"},
       ],
     },
 
@@ -271,9 +269,10 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "Pambazo",
       uso: "Alimenticio",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 15A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 15B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 15C.jpg", caption: "Figura C"},
+        { url: "/images/fungusCol/Cepa 15D.jpg", caption: "Figura D"},
       ],
     },
 
@@ -289,9 +288,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "Hongo del maiz",
       uso: "No uso",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 16A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 16B.jpg", caption: "Figura B"},
+        
       ],
     },
 
@@ -307,9 +306,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "Hongo del palo",
       uso: "No uso",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 17A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 17B.jpg", caption: "Figura B"},
       ],
     },
 
@@ -326,9 +324,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "Hongo del palo viejo",
       uso: "No uso",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 18A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 18B.jpg", caption: "Figura B"},
       ],
     },
 
@@ -344,9 +341,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "Hongo de palo viejo",
       uso: "No uso",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 19A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 19B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 19C.jpg", caption: "Figura C"},
       ],
     },
 
@@ -363,9 +360,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "Hongo de palo viejo",
       uso: "No uso",
       images: [
-        { url: "/images/", caption: "Figura A" },
-        { url: "/images/", caption: "Figura B" },
-        { url: "/images/", caption: "Figura C" },
+        { url: "/images/fungusCol/Cepa 20A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 20B.jpg", caption: "Figura B"},
+        
       ],
     },
 
@@ -375,15 +372,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
       scientificName: "Basidiomycota-Agaromycetes-Agaricales-Incertae sedis",
       fechaRecol: "13/08/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda 20 de julio",
-      descriptionMacro: "Figura a-B. Píleo es de hemisférico-convexo a campanulado de 2 cm de diámetro, de color café oscuro, superficie lisa, margen incurvado, flocos. láminas adnatas, no muy juntas, casi libres, con lamélulas, borde liso, color gris a negro. Estípite cilíndrico de 5 cm de longitud X 0.3 cm de diámetro, delgado, frágil, concoloro con el píleo, carne blanquecina.",
+      descriptionMacro: "Figura A-B. Píleo es de hemisférico-convexo a campanulado de 2 cm de diámetro, de color café oscuro, superficie lisa, margen incurvado, flocos. Láminas adnatas, no muy juntas, casi libres, con lamélulas, borde liso, color gris a negro. Estípite cilíndrico de 5 cm de longitud X 0.3 cm de diámetro, delgado, frágil, concoloro con el píleo, carne blanquecina.",
       descriptionMicro: "Figura C-KOH. Esporas ovoides lisas de 11x7 µm (100x), con poro germinativo excéntrico y amiloides",
-      habitat: "gregario, crece en excreta de ganado",
-      CommonName: "hongo de boñiga de ganado",
+      habitat: "Gregario, crece en excreta de ganado",
+      CommonName: "Hongo de boñiga de ganado",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 21A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 21B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 21C.jpg", caption: "Figura C"},
       ]
     },
 
@@ -395,13 +392,13 @@ export async function getAllFungi(): Promise<Fungus[]> {
       localidad: "Colombia, Cauca, Puracé, Vereda Patia",
       descriptionMacro: "Figura A-B. El cuerpo fructífero emerge directamente del tronco de un árbol de pino, seca y quebradiza, con forma de abanicos superpuestos. Es de color amarillo claro. La superficie fértil es de color amarillo con pequeños poros o tubos",
       descriptionMicro: "Figura C-KOH. Esporas de 2-3x2µm de diámetro (100x)",
-      habitat: "gregario, crece en tronco de árbol",
-      CommonName: "hongo de palo viejo",
+      habitat: "Gregario, crece en tronco de árbol",
+      CommonName: "Hongo de palo viejo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 22A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 22B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 22C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -413,12 +410,12 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMacro: "Figura A. Hongo plecrotoide no estipitado con inserción lateral. Píleo: ejemplares con ancho de 1,1 cm a 8,7 cm y largo de 1,8 – 8,2 cm, grosor de 5-10 mm. Forma flabeliforme a pulmonada. Superficie: de cutícula seca, lisa a corrugada, color gris plomo, cuando más seca se torna blancuzco o naranja. Margen crodado y ondulado, contexto blanco de 1- 1,4 mm de grosor, espumoso. Consistencia membranosa- carnosa. Píleo higrafano, con intersección lateral. Himenoforo lamelado, láminas blancas apretadas de 3-6 mm de alto, margen irregular crodada. Láminas desde el margen hasta punto de inserción del basidioma al sustrato. Forma de lámina segmentiforme. Láminas higrofanas, lamelas de 3 series.",
       descriptionMicro: "Figuras B-C-Tinción de Melzer. Basidios con basidiosporas baciliformes hialinas en KOH de 5x3µl (100x).",
       habitat: "No especificado",
-      CommonName: "oreja de palo blanda",
+      CommonName: "Oreja de palo blanda",
       uso: "Alimenticio",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 23A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 23B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 23C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -430,12 +427,12 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMacro: "Figura A-B. Píleo de 1,2 a 3,3 cm de diámetro, hundido; superficie tomentosa color crema oscuro (oac697); margen lisa. Contexto de 0,1 cm de grosor, color crema claro. Lamelas libres concoloras con el Píleo; margen ondulada. Lamélulas de varias longitudes. Estípite de 0,4 a 2 cm de diámetro cerca al ápice, 1,7 a 4 cm de longitud, central, concoloro con el Píleo; superficie lisa; interior hueco de color más claro que el exterior.",
       descriptionMicro: "Figura C-KOH. Basidios con esporas de 10-11x8-10 µm (100x) de diámetro de formas tetraédricas, inamiloides con reactivo de Melzer.",
       habitat: "Creciendo solitario sobre el suelo.",
-      CommonName: "hongo del suelo",
+      CommonName: "Hongo del suelo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 24A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 24B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 24C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -447,12 +444,12 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMacro: "Figura A. Píleo de 4x10cm, de acampanado a extendido y algo mamelonado. Cutícula seca, cubierta de fibrillas gris-oscuro, color gris (más oscuro en el centro y claro hacia el borde). Láminas libres, apretadas, blancas, van virando al rosa y finalmente, rosa-ladrillo. Estípite virando de piloso a glabro, pruinoso en la parte superior, estriado, color blanco. Volva gris, concolora con el píleo.",
       descriptionMicro: "Figura B-KOH-C-Tinciòn de Mezlar. Esporas elípticas de 13x6µm de diámetro, de pared gruesa",
       habitat: "No especificado",
-      CommonName: "hongo del suelo",
+      CommonName: "Hongo del suelo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 25A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 25B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 25C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -464,12 +461,12 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMacro: "Figura A. Píleo de 2.0 cm, embudado y enrollado en el borde, con depresión central, con un color que varía del pardo al beige, con tonalidades café. Cutícula muy lanuda al acercarse a los bordes, y está toda cubierta por abundantes escamas pilosas. Láminas marcadamente decurrentes, de un color entre beige y crema claro, con el borde dentado (crenulado), angostas y bastante apretadas, con abundantes lamélulas y con algunas de ellas bifurcadas. Estípite cilíndrico, escamoso, concoloro con el pileo y con tonalidades más oscuras en su base.",
       descriptionMicro: "Figura B-Tinción de mezlar. Esporas 6x2µm (100x) de diámetro de pared fina, cilíndricas, alargadas de forma entre recta y algo curvadas, con apícula lateral y con una o varias vacuolas muy tenues en su interior. Reacción inamiloide al Melzer.",
       habitat: "No especificado",
-      CommonName: "hongo de palo viejo",
+      CommonName: "Hongo de palo viejo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 26A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 26B.jpg", caption: "Figura B"},
+        
       ]
     },
     {
@@ -481,12 +478,12 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMacro: "Figura A-B. Píleo de 8 cm, carnoso, globoso en el centro y extendido hacia el borde, va aplanándose, margen excedente y deshilachado. Cutícula blanca, sedosa, con escamas pardas, más evidentes en el centro, color de fondo variable pardo. Láminas cerradas y libres, apretadas, ventrudas, color rosa-carne de joven que ennegrecen. Estipite blanco, sólido, liso, separable. Anillo simple, superior, blanquecino, membranoso, estrecho y frágil. Sin volva. Carne espesa, blanca, vira a rosada en contacto con el aire. Olor-sabor suave, agradable.",
       descriptionMicro: "Figura C-KOH. Esporas elípticas lisas de 8-10 x5 µm de diámetro (100x), poro germinal",
       habitat: "No especificado",
-      CommonName: "hongo del suelo",
+      CommonName: "Hongo del suelo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 27A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 27B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 27C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -498,12 +495,12 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMacro: "Figuras A-B. sin estípite, basidiocarpo con píleo hasta 8 cm de diámetro y hasta 4 cm de grosor, consistencia leñosa, color café claro(oac715), el himenio de un color marrón oscuro (aoc701)",
       descriptionMicro: "Figura C-Tinción de Melzer. Basidiosporas subglobosas de pared gruesa 12x7 micras de diámetro (100x)",
       habitat: "No especificado",
-      CommonName: "oreja de palo duro",
+      CommonName: "Oreja de palo duro",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 28A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 28B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 28C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -514,13 +511,13 @@ export async function getAllFungi(): Promise<Fungus[]> {
       localidad: "Colombia, Cauca, Puracé, Vereda San Alfonso",
       descriptionMacro: "Figura A. Píleo: 12 x10, 13x14,4x6, 5x6 cm, infundibuliforme con consistencia correosa, superficie de color blanco con tonos grisáceo medio, superficie seca, opaca y fibrilosa, con margen amarillo oscuro, ondulado, lobulado levantado, rasgado con la edad. Contexto: hasta 1,2 cm de grosor, color blanco puro, carnoso, glabro. Lamelas: 0,8 – 1 cm de alto, segmentiforme, decurrente, subdistantes, de color blanco crema, margen entero, algunos enrodado, con lamelulas de varias longitudes. Estípite: 4,5 – 10 cm de longitud, 0,8 cm de diámetro cerca del ápice 1,4 cm en la parte media, 1,5 m en la base, central o excéntrico, consistencia correosa, con colora con la superficie del píleo, el borde tiende a cambiar a amarillo ocre.",
       descriptionMicro: "Figuras B-KOH-C-Tinción de Melzer. Esporas elipsoidales 8-9x 3 µm de diámetro alargadas con apícula lateral, de pared fina y con muy ligero contenido en su interior",
-      habitat: "agrupado con basidiocarpos en diferentes estados de maduración-crecimiento en troncos de árbol en descomposición.",
-      CommonName: "kallambas o callambas, orejas de palo",
-      uso: "alimenticio",
+      habitat: "Fistulado o cespitoso. Agrupado con basidiocarpos en diferentes estados de maduración-crecimiento en troncos de árbol en descomposición",
+      CommonName: "Kallambas o callambas, orejas de palo",
+      uso: "Alimenticio",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 29A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 29B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 29C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -532,12 +529,12 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMacro: "Figuras A-B. El ascostroma es hemisférico-subgloboso, de consistencia carbonosa a dura, de 4 cm de diámetro, color violáceo con la superficie granulosa, que en corte longitudinal presenta un endostroma con múltiples capas o franjas concéntricas blanquecinas separadas por una línea negra, donde se desarrollan los peritecios.",
       descriptionMicro: "Figura C-Azul de lactofenol. Esporas elipsoides, lisas de 12-16 X 5-7.5 µm, oscuras, con hendidura germinal recta de menor tamaño que la longitud de la espora.",
       habitat: "No especificado",
-      CommonName: "hongo de palo viejo",
+      CommonName: "Hongo de palo viejo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 30A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 30B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 30C.jpg", caption: "Figura C"},
       ]
     },
 

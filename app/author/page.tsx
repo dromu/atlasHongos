@@ -27,11 +27,12 @@ export default function AuthorPage() {
           />
 
 
-          <p className="text-x mb-1 text-foreground text-center">PhD. Etnobiología y Estudios Bioculturales </p>
-          <p className="text-x mb-1 text-foreground text-center">Master Microbiologia Sanitaria</p>
-          <p className="text-x mb-1 text-foreground text-center">Magíster  en  Micología  Clínica </p>
-          <p className="text-x mb-1 text-foreground text-center">Especialista Salud Familiar</p>
-          <p className="text-x mb-1 text-foreground text-center">Bacteriologa y Laboratorista Clinico </p>
+          <p className="text-x mb-1 text-foreground text-center">PhD. Etnobiología y Estudios Bioculturales linea Etnomicologia </p>
+          <p className="text-x mb-1 text-foreground text-center">Master Microbiologia Clínica y Sanitaria</p>
+          <p className="text-x mb-1 text-foreground text-center">Magíster  en  Micología  Médica </p>
+          <p className="text-x mb-1 text-foreground text-center">Especialista en Salud Familiar</p>
+          <p className="text-x mb-1 text-foreground text-center">Especialista en Epidemiología General</p>
+          <p className="text-x mb-1 text-foreground text-center">Bacteriologa y Laboratorista Clinica </p>
           <p className="text-x mb-1 text-foreground text-center">Profesora del Departamento de Medicina Interna</p>
           <p className="text-x mb-2 text-foreground text-center"> Facultad Ciencias de la Salud; Universidad del Cauca.</p>
           
