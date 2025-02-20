@@ -25,17 +25,19 @@ export default function ProloguePage() {
                                               transformaciones del territorio, deforestación de los bosques, uso de pesticidas y
                                               desechos de azufre que causaron contaminación de los suelos y fuentes de agua,
                                               además del cambio climático. </p>
-          <p className="mb-6 text-foreground text-justify mx-auto max-w-2xl">En los recorridos de campo en el territorio del resguardo de Puracé se encontraron
-                                              42 hongos silvestres de interés biocultural. La comunidad del pueblo Kokonuko les
-                                              da nombres comunes dependiendo de los sustratos donde los observan, en
-                                              relación con los espíritus del territorio y al parecido con otros elementos
-                                              Referente a la importancia biocultural: en frecuencia en mención, el primer lugar
-                                              fue para los “hongos de la boñiga” (Panaeolus fimicola y Psylocibe cubensis) de
-                                              utilidad ecológica, seguidos del “pedo de duende o pedorro” (Lycoperdon sp.), este
-                                              ocupo el primer lugar en orden de mención, usado en la medicina tradicional para
-                                              detener el sangrado. Respecto a hongos de uso alimenticio se reportaron las
-                                              “kallambas u orejas de palo blancas” (Pleurotus djamor, Lentinus scleropus y
-                                              Pluteus cervinus).</p>
+                                              <p className="mb-6 text-foreground text-justify mx-auto max-w-2xl">
+  En los recorridos de campo en el territorio del resguardo de Puracé se encontraron
+  42 hongos silvestres de interés biocultural. La comunidad del pueblo Kokonuko les
+  da nombres comunes dependiendo de los sustratos donde los observan, en
+  relación con los espíritus del territorio y al parecido con otros elementos.
+  Referente a la importancia biocultural: en frecuencia en mención, el primer lugar
+  fue para los “hongos de la boñiga” (<i>Panaeolus fimicola</i> y <i>Psilocybe cubensis</i>) de
+  utilidad ecológica, seguidos del “pedo de duende o pedorro” (<i>Lycoperdon</i> sp.), este
+  ocupó el primer lugar en orden de mención, usado en la medicina tradicional para
+  detener el sangrado. Respecto a hongos de uso alimenticio se reportaron las
+  “kallambas u orejas de palo blancas” (<i>Pleurotus djamor</i>, <i>Lentinus scleropus</i> y
+  <i>Pluteus cervinus</i>).
+</p>
           <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
             <Link href="/">
               <Home className="mr-2 h-4 w-4" /> Volver a la Página Principal

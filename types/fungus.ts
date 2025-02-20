@@ -1,6 +1,7 @@
 export interface Fungus {
   id: string
   name: string
+  autorFecha: string
   fechaRecol: string
   scientificName: string
   localidad: string

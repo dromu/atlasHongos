@@ -24,8 +24,12 @@ export default function Home() {
           </p>
 
           <p className="text-xl mb-1 text-foreground font-bold">
-            PhD. FABIOLA EUGENIA GONZALEZ CUELLAR.
+            PhD. FABIOLA EUGENIA GONZALEZ CUELLAR
           </p>
+
+          {/* <p className="text-xl mb-1 text-foreground font-bold">
+            Eng. JADER ALEJANDRO MUÑOZ GALINDEZ
+          </p> */}
 
 
           <p className="text-xl mb-8 text-foreground">

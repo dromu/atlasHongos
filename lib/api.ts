@@ -6,7 +6,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
   return [
     {
       id: "1",
-      name: "Ganoderma sp. (sf. Australe) (P.Karst., 1881)",
+      name: "Ganoderma ",
+      autorFecha: "sp. (sf. Australe) (P.Karst., 1881)",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae.",
       fechaRecol: "05/11/2019",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -24,7 +25,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "2",
-      name: "Scleroderma citrinum (Bull.) Pers. (1801)",
+      name: "Scleroderma citrinum", 
+      autorFecha:" (Bull.) Pers. (1801)",
       scientificName: "Basidiomycota-Agaromycetes-Boletales-Sclerodermataceae",
       fechaRecol: "05/11/2019",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -42,7 +44,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "3",
-      name: "Schizophyllum commune (Fr. 1815).",
+      name: "Schizophyllum commune",
+      autorFecha: " (Fr. 1815)",
       scientificName: "Basidiomycota-Agaricomycetes-Agaricales-Schizophyllaceae ",
       fechaRecol: "05/11/2019",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -61,7 +64,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "4",
-      name: "Inonoptus sp.  (P. Karst., 1879)",
+      name: "Inonoptus ",
+      autorFecha: "sp.  (P. Karst., 1879)",
       scientificName: "Basidiomycota- Agaricomycetes- Hymenochaetales- Hymenochaetaceae",
       fechaRecol: "05/11/2019",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -79,7 +83,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "5",
-      name: "Ganoderma sp. (P.Karst., 1881)",
+      name: "Ganoderma ",
+      autorFecha: "sp. (P. Karst., 1881)",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "05/11/2019",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -97,7 +102,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "6",
-      name: "Scleroderma citrinun(Bull.) Pers. (1801)",
+      name: "Scleroderma citrinun",
+      autorFecha: "(Bull.) Pers. (1801)",
       scientificName: "Basidiomycota-Agaromycetes-Boletales-Sclerodermataceae",
       fechaRecol: "05/11/2019",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -115,7 +121,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "7",
-      name: "Psilocybe cubensis (Earle) Singer, 1948).",
+      name: "Psilocybe cubensis",
+      autorFecha: "(Earle) Singer, 1948).",
       scientificName: "Basidiomycota- Agaricomycetes- Agaricales-Hymenogastraceae",
       fechaRecol: "25/01/2020",
       localidad: "Colombia, Cauca, Puracé, Vereda San Alfonso",
@@ -134,7 +141,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "8",
-      name: "Lentinus crinitus (L.) Fr., 1825",
+      name: "Lentinus crinitus",
+      autorFecha: "(L.) Fr., 1825",
       scientificName: "Basidiomycota- Agaricomycetes-Polyporales-Polyporaceae",
       fechaRecol: "25/01/2020",
       localidad: "Colombia, Cauca, Puracé, Vereda San Alfonso",
@@ -153,7 +161,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "9",
-      name: "Pleurotus djamor. (Fr.) P. Kumm).",
+      name: "Pleurotus djamor.",
+      autorFecha: " (Fr.) P. Kumm.",
       scientificName: "Basidiomycota- Agaricomycetes- Agaricales- Pleurotaceae",
       fechaRecol: "25/01/2020",
       localidad: "Colombia, Cauca, Puracé, Vereda San Alfonso",
@@ -171,7 +180,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "10",
-      name: "Pleurotus djamor. (Fr.) P. Kumm).",
+      name: "Pleurotus djamor.",
+      autorFecha: "(Fr.) P. Kumm.",
       scientificName: "Basidiomycota- Agaricomycetes- Agaricales- Pleurotaceae",
       fechaRecol: "25/01/2020",
       localidad: "Colombia, Cauca, Puracé, Vereda San Alfonso",
@@ -188,7 +198,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "11",
-      name: "Lentinus scleropus (Pers.) Fr. (1836)",
+      name: "Lentinus scleropus",
+      autorFecha: " (Pers.) Fr. (1836)",
       scientificName: "Basidiomycota- Agaricomycetes- Polyporales- Polyporaceae",
       fechaRecol: "25/01/2020",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico.",
@@ -205,7 +216,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "12",
-      name: "Psilocybe cubensis.(Earle) Singer, 1948).",
+      name: "Psilocybe cubensis.",
+      autorFecha: "(Earle) Singer, 1948",
       scientificName: "Basidiomycota- Agaricomycetes- Agaricales-Hymenogastraceae",
       fechaRecol: "25/01/2020",
       localidad: "Colombia, Cauca, Puracé, Vereda San Alfonso",
@@ -222,7 +234,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "13",
-      name: "Scleroderma citrinun(Bull.) Pers. (1801)",
+      name: "Scleroderma citrinun",
+      autorFecha: "(Bull.) Pers. (1801)",
       scientificName: "Basidiomycota-Agaromycetes-Boletales-Sclerodermataceae",
       fechaRecol: "25/01/2020",
       localidad: "Colombia, Cauca, Puracé, Vereda San Alfonso",
@@ -240,7 +253,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     
     {
       id: "14",
-      name: "Lepiota cf. cristata. (Bolton) P. Kumm 1871",
+      name: "Lepiota cf. cristata. ",
+      autorFecha: "(Bolton) P. Kumm 1871",
       scientificName: "Basidiomycota-Agaricales-Agaricomycetes-Agaricaceae",
       fechaRecol: "25/01/2020",
       localidad: "Colombia, Cauca, Puracé, Vereda San Alfonso",
@@ -259,7 +273,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "15",
-      name: "Suillus luteus (L.: Fries) Gray",
+      name: "Suillus luteus ",
+      autorFecha:"(L.: Fries) Gray",
       scientificName: "Basidiomycota-Boletales-Agaricomycetes-Suillaceae",
       fechaRecol: "02/07/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Campamento",
@@ -278,7 +293,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "16",
-      name: "Ustilago maydis (Corda, 1842)",
+      name: "Mycosarcoma maydis ",
+      autorFecha: "(Corda, 1842)",
       scientificName: "Basidiomycota-Ustilaginales-Ustilagonomycetes-Ustilaginaceae",
       fechaRecol: " 03/07/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Tabio",
@@ -296,7 +312,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "17",
-      name: "Crepidotus aplanatus (1965) Sensu Rea (1922)",
+      name: "Crepidotus aplanatus ",
+      autorFecha: "(1965) Sensu Rea (1922)",
       scientificName: "Basidiomycota-Basidiomycetes-Agaricales-Crepidotaceae",
       fechaRecol: " 29/07/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Chapio",
@@ -314,7 +331,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "18",
-      name: "Lentinus swaetzii Berk., 1843",
+      name: "Lentinus swaetzii ",
+      autorFecha: "Berk., 1843",
       scientificName: "Basidiomycota-Agaricomycetes-Poliporales-Poliporaceae",
       fechaRecol: " 30/07/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Ambiro Bajo",
@@ -331,7 +349,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "19",
-      name: "Trametes sanguínea (L.) (Klotzsch) Pat. 1897",
+      name: "Trametes sanguínea ",
+      autorFecha:"(L.) (Klotzsch) Pat. 1897",
       scientificName: "Basidiomycota-Agaromycetes-Poliporales-Poliporaceae",
       fechaRecol: " 30/07/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Ambiro Bajo",
@@ -350,7 +369,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "20",
-      name: "Trichaptum sp. Murrill (1904)",
+      name: "Trichaptum",
+      autorFecha: "sp. Murrill (1904)",
       scientificName: "Basidiomycota-Agaromycetes-Hymenochaetales-Incertae sedis",
       fechaRecol: " 30/07/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Ambiro Bajo",
@@ -368,7 +388,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "021",
-      name: "Panaeolus fimicula. (Fr., 1872)",
+      name: "Panaeolus fimicula. ",
+      autorFecha: "(Fr., 1872)",
       scientificName: "Basidiomycota-Agaromycetes-Agaricales-Incertae sedis",
       fechaRecol: "13/08/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda 20 de julio",
@@ -386,7 +407,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "022",
-      name: "Laetiporus sulphureus. (Bull.) Murrill (1920)",
+      name: "Laetiporus sulphureus.",
+      autorFecha:" (Bull.) Murrill (1920)",
       scientificName: "Basidiomycota-Agaricomycetes-Polyporales-Fomitopsidaceae",
       fechaRecol: "22/10/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patia",
@@ -403,7 +425,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "023",
-      name: "Pleurotus djamor (Fr.) P. Kumm).",
+      name: "Pleurotus djamor ",
+      autorFecha: "(Fr.) P. Kumm).",
       scientificName: "Basidiomycota-Agaricomycetes-Agaricales-Pleurotaceae",
       fechaRecol: "22/10/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Campamento",
@@ -420,7 +443,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "024",
-      name: "Entoloma sp. (Bull.) P. Kumm. 1871",
+      name: "Entoloma",
+      autorFecha: "sp. (Bull.) P. Kumm. 1871",
       scientificName: "Basidiomycota-Agaricomycetes-Agaricales-Entolomataceae",
       fechaRecol: "22/10/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda 20 de julio",
@@ -437,7 +461,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "025",
-      name: "Volvariella sp. (Bulliard ex Fries) Singer, 1951",
+      name: "Volvariella ",
+      autorFecha: "sp. (Bulliard ex Fries) Singer, 1951",
       scientificName: "Basidiomycota-Agaricomycetes-Agaricales-Pleurotaceae",
       fechaRecol: "22/10/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Chapio",
@@ -454,7 +479,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "026",
-      name: "Lentinus crinitus (L.) Fr., 1825",
+      name: "Lentinus crinitus ",
+      autorFecha:"(L.) Fr., 1825",
       scientificName: "Basidiomycota-Agaricomycetes-Polyporales-Polyporaceae",
       fechaRecol: "22/10/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Chapio",
@@ -471,7 +497,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "027",
-      name: "Agaricus sp.",
+      name: "Agaricus",
+      autorFecha: "sp.",
       scientificName: "Basidiomycota-Agaricomycetes-Agaricales-Agaricaceae-Agaricus sp.",
       fechaRecol: "22/10/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patía",
@@ -488,7 +515,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "028",
-      name: "Phellinus sf pini. (Brot.: Fr.)",
+      name: "Phellinus sf pini. ",
+      autorFecha:"(Brot.: Fr.)",
       scientificName: "Basidiomycota-Agaricomycetes-Hymenochaetales-Hymenochaetaceae",
       fechaRecol: "22/10/2021",
       localidad: "Colombia, Cauca, Puracé. Pueblo",
@@ -505,7 +533,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "029",
-      name: "Lentinus scleropus (Pers.) Fr. (1836)",
+      name: "Lentinus scleropus ",
+      autorFecha: "(Pers.) Fr. (1836)",
       scientificName: "Basidiomycota-Agaricomycetes-Poliporales-Poliporaceae",
       fechaRecol: "25/10/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda San Alfonso",
@@ -522,7 +551,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "030",
-      name: "Daldinia concentrica. (Bolton) Ces. & De Not.",
+      name: "Daldinia concentrica. ",
+      autorFecha: "(Bolton) Ces. & De Not.",
       scientificName: "Ascomycota-Soldariomycetes-Xilariales-Xilariaceae",
       fechaRecol: "05/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -540,7 +570,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "031",
-      name: "Lentinus crinitus (L.) Fr., 1825",
+      name: "Lentinus crinitus ",
+      autorFecha: "(L.) Fr., 1825",
       scientificName: "Basidiomycota- Agaricomycetes-Poliporales-Poliporaceae",
       fechaRecol: "05/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -556,7 +587,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "032",
-      name: "Macrolepiota sp. (Scop.) Singer, 1948",
+      name: "Macrolepiota",
+      autorFecha: "sp. (Scop.) Singer, 1948",
       scientificName: "Basidiomycota-Basidiomycetes-Agaricales-Agaricaceae",
       fechaRecol: "20/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patía",
@@ -573,7 +605,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "033",
-      name: "Lycoperdon sp. Pers",
+      name: "Lycoperdon ",
+      autorFecha:"sp. Pers",
       scientificName: "Basidiomycota-Agaricomycetes-Agaricales-Agaricaceae",
       fechaRecol: "20/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patía",
@@ -590,7 +623,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "034",
-      name: "Lycoperdon perlatum Pers.",
+      name: "Lycoperdon perlatum ",
+      autorFecha: "Pers.",
       scientificName: "Basidiomycota-Agaricomycetes-Agaricales-Agaricaceae",
       fechaRecol: "29/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda San Patico",
@@ -606,7 +640,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "035",
-      name: "Geastrum sp. Pers.",
+      name: "Geastrum ",
+      autorFecha: "sp. Pers.",
       scientificName: "Basidiomycota-Agaricomycetes-Geastrales-Geastraceae",
       fechaRecol: "29/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -622,7 +657,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "036",
-      name: "Suillus luteus (L.: Fries) Gray",
+      name: "Suillus luteus ",
+      autorFecha: "(L.: Fries) Gray",
       scientificName: "Basidiomycota-Boletales-Agaricomycetes-Suillaceae",
       fechaRecol: "29/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -639,7 +675,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "037",
-      name: "Geastrum triplex. Jungh. 1840p",
+      name: "Geastrum triplex. ",
+      autorFecha: "Jungh. 1840p",
       scientificName: "Basidiomycota- Agaricomycetes- Geastrales- Geastraceae-",
       fechaRecol: "29/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -656,7 +693,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "038",
-      name: "Poliporal (c.f Trametes sp.)",
+      name: "Poliporal ",
+      autorFecha: "(c.f Trametes sp.)",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "29/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
@@ -674,7 +712,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     
     {
       id: "039",
-      name: "Poliporal c.f Trametes sp.",
+      name: "Poliporal",
+      autorFecha: "(c.f Trametes sp.)",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "29/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -690,7 +729,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "040",
-      name: "Laccaria sp.",
+      name: "Laccaria ",
+      autorFecha: "sp.",
       scientificName: "Basidiomycota-Agaricomycetes-Agaricales-Hygnangiaceae",
       fechaRecol: "29/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -706,7 +746,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "041",
-      name: "Poliporal Fr. ex Corda1",
+      name: "Poliporal",
+      autorFecha: "Fr. ex Corda",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "29/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -723,14 +764,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "042",
-      name: "Morchella cf. esculenta. (L) Pers. 1794 (F.r.)",
+      name: "Morchella cf. esculenta. ",
+      autorFecha: "(L) Pers. 1794 (F.r.)",
       scientificName: "Ascomycota-Pezizomycetes-Pezizalez-Morchellaceae",
       fechaRecol: "21/02/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Ambiro bajo",
       descriptionMacro: "Figuras A-B. Formadas por un tronco blanquinoso que sostiene un sombrero en forma esférica, redondeada u ovoide, de 6 a 10 cm de ancho, de color miel, con una forma semejante a un avispero. El tronco, que también está vacío, es blanquinoso. La carne es frágil y muy escasa y prácticamente inodora.",
       descriptionMicro: "Figura C-Tinciòn de Melzer. Esporas 9-15x4-8 µm de diámetro",
       habitat: "No especificado",
-      CommonName: "hongo del suelo",
+      CommonName: "Hongo del suelo",
       uso: "No uso",
       images: [
         { url: "/images/fungusCol/Cepa 42A.jpg", caption: "Figura A"},
@@ -740,14 +782,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "043",
-      name: "Laccaria laccata (Scop.) Cooke 1884",
+      name: "Laccaria laccata ",
+      autorFecha: "(Scop.) Cooke 1884",
       scientificName: "Basidiomycota-Agaricomycetes-Agaricales-Hydnangiaceae",
       fechaRecol: "21/02/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda San Juan",
       descriptionMacro: "Figuras A-B. Carpóforo de talla pequeña, poco carnoso, sombrero algo deprimido en el centro. Cutícula pardo-naranja o pardo-rojizo, colores brillantes, lisa, higrófana, en seco algo escamosa. Láminas espaciadas, con lamélulas, de color lila o rosado. Pie curvado y fibroso. Carne escasa de color rosa pálido. Sabor dulzón.",
       descriptionMicro: "Figura C-KOH. Esporas hialinas de 6x3µm de diámetro",
       habitat: "No especificado",
-      CommonName: "hongo del suelo",
+      CommonName: "Hongo del suelo",
       uso: "No uso",
       images: [
         { url: "/images/fungusCol/Cepa 43A.jpg", caption: "Figura A"},
@@ -757,14 +800,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "044",
-      name: "Laetiporus sulphureus. (Bull.) Murrill (1920)",
+      name: "Laetiporus sulphureus.",
+      autorFecha:"(Bull.) Murrill (1920)",
       scientificName: "Basidiomycota- Agaricomycetes-Poliporales-Fomitopsidaceae",
       fechaRecol: "08/06/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
       descriptionMacro: "Figuras A-B. El cuerpo fructífero emerge directamente del tronco de un árbol de pino, seca y quebradiza, con forma de abanicos superpuestos. Es de color amarillo claro. La superficie fértil es de color amarillo con pequeños poros o tubos",
       descriptionMicro: "Figura C-KOH. Esporas de 2-3x2µm de diámetro (100x)",
-      habitat: "gregario, crece en tronco de árbol",
-      CommonName: "hongo de palo viejo",
+      habitat: "Gregario, crece en tronco de árbol",
+      CommonName: "Hongo de palo viejo",
       uso: "No uso",
       images: [
         { url: "/images/fungusCol/Cepa 44A.jpg", caption: "Figura A"},
@@ -774,14 +818,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "045",
-      name: "Poliporal c.f. Trametes nivosa. Berk.) Murrill (1907)",
+      name: "Poliporal c.f. Trametes nivosa.",
+      autorFecha: " Berk. Murrill (1907)",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "12/08/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
       descriptionMacro: "Figuras A-B. Cuerpos fructíferos duros de color blanco que luego se tornaron amarillos",
       descriptionMicro: "Figura C-KOH esporas de 7x2 µm de diámetro",
-      habitat: "gregario, crece en tronco de árbol",
-      CommonName: "hongo de palo viejo",
+      habitat: "Gregario, crece en tronco de árbol",
+      CommonName: "Hongo de palo viejo",
       uso: "No uso",
       images: [
         { url: "/images/fungusCol/Cepa 45A.jpg", caption: "Figura A"},
@@ -791,14 +836,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "046",
-      name: "Poliporal c.f. Trametes pubescens. (Schumach.) Pilát (1939)",
+      name: "Poliporal c.f. Trametes pubescens. ",
+      autorFecha: "(Schumach.) Pilát (1939)",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "12/08/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
       descriptionMacro: "Figura A. Superficie del píleo finamente aterciopelada de color crema con textura coriacea.",
       descriptionMicro: "Figuras B-KOH C. Tinción de melzer. Esporas ovaladas de 3x2µm de diámetro",
-      habitat: "gregario, crece en tronco de árbol, causa podredumbre blanca",
-      CommonName: "hongo de palo viejo",
+      habitat: "Gregario, crece en tronco de árbol, causa podredumbre blanca",
+      CommonName: "Hongo de palo viejo",
       uso: "No uso",
       images: [
         { url: "/images/fungusCol/Cepa 46A.jpg", caption: "Figura A"},
@@ -808,14 +854,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "047",
-      name: "Poliporal (c.f Trametes sp.)",
+      name: "Poliporal",
+      autorFecha: "(c.f Trametes sp.)",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "12/08/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
       descriptionMacro: "Figura A. Píleo finamente aterciopelada de color crema, la superficie del pileo carece de zonas de color fuertemente contrastantes.",
       descriptionMicro: "Figura B-KOH: esporas hialinas 1.8x2.3µm de diámetro",
-      habitat: "gregario, crece en tronco de árbol",
-      CommonName: "hongo de palo viejo",
+      habitat: "Gregario, crece en tronco de árbol",
+      CommonName: "Hongo de palo viejo",
       uso: "No uso",
       images: [
         { url: "/images/fungusCol/Cepa 47A.jpg", caption: "Figura A"},
@@ -825,14 +872,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "048",
-      name: "Schizophyllum commune (Fr. 1815).",
+      name: "Schizophyllum commune ",
+      autorFecha: "(Fr. 1815).",
       scientificName: "Basidiomycota-Agaromycetes-Agaricales-Schizophyllaceae",
       fechaRecol: "12/08/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
       descriptionMacro: "Figura A. Píleo con ondas ondulantes, color amarillo cremoso a blanco pálido. El píleo es pequeño, de 1 a 4,5 cm de ancho con una textura corporal densa pero esponjosa.",
       descriptionMicro: "Figura B-KOH. Esporas de 6x2 µm de diámetro",
-      habitat: "gregario, crece en tronco de árbol",
-      CommonName: "hongo de palo viejo",
+      habitat: "Gregario, crece en tronco de árbol",
+      CommonName: "Hongo de palo viejo",
       uso: "No uso",
       images: [
         { url: "/images/fungusCol/Cepa 48A.jpg", caption: "Figura A"},
@@ -844,14 +892,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "049",
-      name: "Poliporus sp. P.Micheli ex Adans. (1763)",
+      name: "Poliporus ",
+      autorFecha: "sp. P.Micheli ex Adans. (1763)",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "12/08/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
       descriptionMacro: "Figura A. Píleo con un diámetro de 10 cm, seca y opaca, color marrón beige, finamente afelpada y luego se vuelve finamente escamosa. La mitad del píleo está hundida como un ombligo y ampliamente jorobada y el borde ciliado corto. Los poros redondos y muy finos (4-6 por mm) son blancos y descienden por el tallo. El estipite tiene una textura granulada de color marrón grisáceo sobre un fondo blanquecino.",
       descriptionMicro: "Figura B-Tinciòn de melzer: espora 6x3µm de diámetro (100x)",
       habitat: "No especificado",
-      CommonName: "hongo de palo viejo",
+      CommonName: "Hongo de palo viejo",
       uso: "No uso",
       images: [
         { url: "/images/fungusCol/Cepa 49A.jpg", caption: "Figura A"},
@@ -861,14 +910,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "050",
-      name: "Trametes versicolor. (L.:Fr.) Quél",
+      name: "Trametes versicolor. ",
+      autorFecha: "(L.:Fr.) Quél",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "12/08/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
       descriptionMacro: "Figuras A-B. La superficie superior del píleo muestra zonas concéntricas de diferentes tonalidades de café, 1-3 mm de textura gruesa, correosa, con zonas de pelos finos, himenio de superficie porosa blanquecina a marrón claro, poros redondos.",
       descriptionMicro: "Figura C-Tinciòn de Melzer: esporas 5-7 x 2-3 µm de diámetro",
       habitat: "No especificado",
-      CommonName: "hongo de palo viejo",
+      CommonName: "Hongo de palo viejo",
       uso: "No uso",
       images: [
         { url: "/images/fungusCol/Cepa 50A.jpg", caption: "Figura A"},
@@ -878,14 +928,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "051",
-      name: "Arcocoryne sarcoides (Jacq.) J.W.Groves & D.E.Wilson (1967)",
+      name: "Arcocoryne sarcoides ",
+      autorFecha: "(Jacq.) J.W.Groves & D.E.Wilson (1967)",
       scientificName: "Ascomycota-Leotiomycetes-helotiales-Helotiaceae",
       fechaRecol: "12/08/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
       descriptionMacro: "Figuras A-B. presenta agrupaciones de aspecto gelatinoso, cerebriforme o lobuladas irregularmente, recién recolectados se observaron de color uniforme rosado o lila pálido, cuando se secaron adoptaron un color mate, marrón púrpura.",
       descriptionMicro: "Figura C-KOH. Se observan ascas con 4 ascosporas de 18x6µm de diámetro",
       habitat: "No especificado",
-      CommonName: "hongo de palo viejo",
+      CommonName: "Hongo de palo viejo",
       uso: "No uso",
       images: [
         { url: "/images/fungusCol/Cepa 51A.jpg", caption: "Figura A"},
@@ -895,14 +946,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "052",
-      name: "Suillus luteus (L.: Fries) Gray",
+      name: "Suillus luteus ",
+      autorFecha: "(L.: Fries) Gray",
       scientificName: "Basidiomycota-Boletales-Agaricomycetes-Suillaceae",
       fechaRecol: "12/08/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda 20 de julio",
       descriptionMacro: "Figuras A-B. Píleo es de color marrón y de forma convexa, con un diámetro entre 4 a 10 centímetros. La cutícula es viscosa y su borde es enrollado. Los tubos son de color amarillo pálido. Los poros son pequeños y angulosos, amarillos en fases iniciales y parduscos conforme envejece. La carne es blanca amarillenta, de olor afrutado.",
       descriptionMicro: "Figura C-KOH. Esporas de 8-9x3-4µm de diámetro",
       habitat: "No especificado",
-      CommonName: "pambazo",
+      CommonName: "Pambazo",
       uso: "alimenticio",
       images: [
         { url: "/images/fungusCol/Cepa 52A.jpg", caption: "Figura A"},
@@ -912,14 +964,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "053",
-      name: "Phellinus sp. Quél. (1886)",
+      name: "Phellinus ",
+      autorFecha: "sp. Quél. (1886)",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "12/09/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
       descriptionMacro: "Figuras A-B. Carpoforo duro y leñoso de color marrón.",
       descriptionMicro: "Figura C-Azul de lactofenol. Espora 4x4 µm de diámetro",
-      habitat: "solitario, crece adherido en madera",
-      CommonName: "oreja de palo duro",
+      habitat: "Solitario, crece adherido en madera",
+      CommonName: "Oreja de palo duro",
       uso: "escritura-ES",
       images: [
         { url: "/images/fungusCol/Cepa 53A.jpg", caption: "Figura A"},
@@ -929,14 +982,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "054",
-      name: "Poliporal Fr. ex Corda1",
+      name: "Poliporal",
+      autorFecha: "Fr. ex Corda",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "12/09/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
       descriptionMacro: "Figura A. Carpoforos de consistencia dura de color crema",
       descriptionMicro: "FiguraB-C-Tinciòn de Melzer: Esporas de 4x2µm de diámetro",
-      habitat: "gregario, crece adherido a madera",
-      CommonName: "orejas de palo duras",
+      habitat: "Gregario, crece adherido a madera",
+      CommonName: "Orejas de palo duras",
       uso: "No uso",
       images: [
         { url: "/images/fungusCol/Cepa 54A.jpg", caption: "Figura A"},
@@ -946,14 +1000,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "055",
-      name: "Ramaria stricta (Pers.) Quél. (1888)",
+      name: "Ramaria stricta ",
+      autorFecha: "(Pers.) Quél. (1888)",
       scientificName: "Basidiomycota-Agaricomycetes-Gomphales-Gomphaceae",
       fechaRecol: "12/09/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
       descriptionMacro: "Figura A. Forma coraloide muy ramificada, tronco delgado de color amarillento formado por numerosas ramas verticales, estrechas, largas y paralelas y extremos bifurcados en puntas cortas. Himenio liso y mate, que cubre toda la superficie ramosa. Carne entre blanca y pardo rosado. Olor débil y agradable.",
       descriptionMicro: "Figura B-Tinciòn de Melzer- Figura C-Azul de Lactofenol. Esporas maduras son muy alargadas y fusiformes, contienen pequeñas vacuolas de sustancia de reserva que se aprecian verdosas. Las esporas presentan un apículo recurvado por donde se sujetaban al basidio. Tamaño 8-10x4-6µm de diámetro (100X)",
-      habitat: "saprofita en suelo, crece cerca de ramas caídas",
-      CommonName: "hongos del suelo",
+      habitat: "Saprofita en suelo, crece cerca de ramas caídas",
+      CommonName: "Hongos del suelo",
       uso: "No uso",
       images: [
         { url: "/images/fungusCol/Cepa 55A.jpg", caption: "Figura A"},
@@ -963,14 +1018,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "056",
-      name: "Hidrocybe acutonica (Clem,) Singer 1951",
+      name: "Hidrocybe acutonica ",
+      autorFecha: "(Clem,) Singer 1951",
       scientificName: "Basidiomycota-Agaricomycetes-Agaricales-Hydrophoraceae",
       fechaRecol: "12/09/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
       descriptionMacro: "Figuras A-B. píleo de 1,7 a 5 cm de diámetro, de campanulado a plano, umbonado, amarillo (oac854); superficie glabra, fibrilosa, húmeda; margen rimosa, con manchas azules oscuras a negras. Contexto de 1 a 2 mm, amarillo cremoso (oac896) sin cambios de coloración. Lamelas adnadas, blancas tornándose crema amarillosas con manchas oscuras, subdistantes; margen entera. Lamélulas de al menos 2 longitudes diferentes. Estípite de 5 a 7 cm de longitud y 4 a 6,5 mm de diámetro, central, cilíndrico a clavado, amarillo concoloro con superficie del Píleo; superficie seca, fibrilosa, finamente pubescente.",
       descriptionMicro: "Figura C-KOH. Esporas globosas de 6-12x5-8µm de diámetro (100x)",
       habitat: "Creciendo solitario y gregario sobre suelo",
-      CommonName: "hongos del suelo",
+      CommonName: "Hongos del suelo",
       uso: "No uso",
       images: [
         { url: "/images/fungusCol/Cepa 56A.jpg", caption: "Figura A"},
@@ -980,14 +1036,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "057",
-      name: "Laetiporus sp. (Bull.) Murrill (1920)",
+      name: "Laetiporus ",
+      autorFecha: "sp. (Bull.) Murrill (1920)",
       scientificName: "Basidiomycota-Agaricomycetes-Polyporales-Fomitopsidaceae",
       fechaRecol: "12/09/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
       descriptionMacro: "Figura A. Carpoforo de 9 cm en la parte central y en forma de abanico hasta de 19 cm, la superficie del píleo con ligeras arrugas, de colores opacos que van del amarillo a naranja, de margen ondulado, los poros son amarillos, pequeños.",
       descriptionMicro: "Figuras B-C-KOH, basidios con esporas de 5x3 micras con terminación en espículas",
-      habitat: "gregario, crece adherido a madera",
-      CommonName: "hongo de palo viejo",
+      habitat: "Gregario, crece adherido a madera",
+      CommonName: "Hongo de palo viejo",
       uso: "No uso",
       images: [
         { url: "/images/fungusCol/Cepa 57A.jpg", caption: "Figura A"},
@@ -997,14 +1054,15 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "058",
-      name: "Trametes sp.",
+      name: "Trametes",
+      autorFecha: " sp.",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "04/10/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
       descriptionMacro: "Figuras A-B. Carpóforo de consistencia dura coreosa, de color crema, himenóforo con poros dentados",
       descriptionMicro: "Figura C-KOH. Esporas 9-10x5-6µm de diámetro",
-      habitat: "solitarios, crecen adherido a madera",
-      CommonName: "orejas de palo duras",
+      habitat: "Solitarios, crecen adherido a madera",
+      CommonName: "Orejas de palo duras",
       uso: "No uso",
       images: [
         { url: "/images/fungusCol/Cepa 58A.jpg", caption: "Figura A"},
@@ -1014,15 +1072,16 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "059",
-      name: "Lycoperdon sp. Pers",
+      name: "Lycoperdon",
+      autorFecha: "sp. Pers",
       scientificName: "Basidiomycota-Agaricomycetes-Agaricales-Agaricaceae",
       fechaRecol: "04/10/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
       descriptionMacro: "Figura A. cuerpo fructífero piriforme de 4 cm de diámetro, color café oscuro.",
       descriptionMicro: "Figura B-KOH. Esporas oscuras cafés de 3x3µm de diámetro (100x)",
-      habitat: "pastizales, solitarios",
-      CommonName: "pedo de duende o pedorro",
-      uso: "medicinal-hemostático",
+      habitat: "Pastizales, solitarios",
+      CommonName: "Pedo de duende o pedorro",
+      uso: "Medicinal-hemostático",
       images: [
         { url: "/images/fungusCol/Cepa 59A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 59B.jpg", caption: "Figura B"},
@@ -1031,15 +1090,16 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "060",
-      name: "Pluteus cervinus. (Schaeff.) P.Kumm., 1871",
+      name: "Pluteus cervinus.",
+      autorFecha: "(Schaeff.) P.Kumm., 1871",
       scientificName: "Basidiomycota-Agaricomycetes-Agaricales-Pluteaceae",
       fechaRecol: "07/11/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda San Alfonso",
       descriptionMacro: "Figuras A-B. Píleo de color rosado de consistencia blanda y el himenio se observa en forma de láminas y el estípite de 15 cm de longitud y entre 1 y 2 de diámetro",
       descriptionMicro: "Figura C-KOH. Esporas redondas de 4x4 µm de diámetro",
-      habitat: "madera viva y en descomposición",
-      CommonName: "kallambas",
-      uso: "alimenticio",
+      habitat: "Madera viva y en descomposición",
+      CommonName: "Kallambas",
+      uso: "Alimenticio",
       images: [
         { url: "/images/fungusCol/Cepa 60A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 60B.jpg", caption: "Figura B"},
@@ -1048,15 +1108,16 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "061",
-      name: "Pleurotus djamor (Fr.) P. Kumm.",
+      name: "Pleurotus djamor ",
+      autorFecha: "(Fr.) P. Kumm.",
       scientificName: "Basidiomycota-Agaricomycetes-Agaricales-Pleurotaceae",
       fechaRecol: "07/11/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda San Alfonso",
       descriptionMacro: "Figura A. hongo plecrotoide no estipitado con inserción lateral. Píleo: ejemplares con ancho de 1,1 cm a 8,7 cm y largo de 1,8 – 8,2 cm, grosor de 5-10 mm. Forma flabeliforme a pulmonada. Superficie: de cutícula seca, lisa a corrugada, color gris plomo, cuando más seca se torna blancuzco o naranja. Margen crodado y ondulado, contexto blanco de 1- 1,4 mm de grosor, espumoso. Consistencia membranosa- carnosa. Píleo higrafano, con intersección lateral. Himenoforo lamelado, láminas blancas apretadas de 3-6 mm de alto, margen irregular crodada. Láminas desde el margen hasta punto de inserción del basidioma al sustrato. Forma de lámina segmentiforme. Láminas higrofanas, lamelas de 3 series.",
       descriptionMicro: "Figura B-KOH. Basidiosporas baciliformes hialinas de 7x2µl (100x).",
-      habitat: "sustrato tronco caído al lado del camino entre maleza",
-      CommonName: "kallambas/callambas, orejas de palo",
-      uso: "alimenticio",
+      habitat: "Sustrato tronco caído al lado del camino entre maleza",
+      CommonName: "Kallambas/callambas, orejas de palo",
+      uso: "Alimenticio",
       images: [
         { url: "/images/fungusCol/Cepa 61A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 61B.jpg", caption: "Figura B"},
@@ -1065,15 +1126,16 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "062",
-      name: "Lycoperdon sp. Pers",
+      name: "Lycoperdon ",
+      autorFecha: "sp. Pers",
       scientificName: "Basidiomycota-Agaricomycetes-Agaricales-Agaricaceae",
       fechaRecol: "29/12/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda 20 de julio",
       descriptionMacro: "Figura A. Cuerpo fructífero piriforme de 4 cm de diámetro, color café oscuro.",
       descriptionMicro: "Figura B-KOH. Esporas 3x3µm de diámetro (100x)",
-      habitat: "pastizales, solitarios",
-      CommonName: "pedo de duende o pedorro",
-      uso: "medicinal-hemostático",
+      habitat: "Pastizales, solitarios",
+      CommonName: "Pedo de duende o pedorro",
+      uso: "Medicinal-hemostático",
       images: [
         { url: "/images/fungusCol/Cepa 62A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 62B.jpg", caption: "Figura B"},

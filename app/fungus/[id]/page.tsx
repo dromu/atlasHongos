@@ -17,7 +17,9 @@ export default async function FungusPage({ params }: { params: { id: string } })
       <Card className="mb-8">
         <CardHeader>
         <CardTitle style={{ color: "#404040" }}>Colección {fungus.id}</CardTitle>
-          <CardTitle className="text-3xl font-bold text-primary italic">{fungus.name}</CardTitle>
+        <CardTitle className="text-3xl font-bold text-primary italic">
+          {fungus.name} <span className="not-italic text-3xl font-bold text-primary">{fungus.autorFecha}</span>
+        </CardTitle>
           <p className="text-x  text-muted">{fungus.scientificName}</p>
         </CardHeader>
         <CardContent>
