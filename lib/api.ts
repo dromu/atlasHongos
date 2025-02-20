@@ -701,7 +701,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       uso: "No uso",
       images: [
         { url: "/images/fungusCol/Cepa 40A.jpg", caption: "Figura A"},
-        // { url: "/images/fungusCol/Cepa 40B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 40B.jpg", caption: "Figura B"},
       ]
     },
     {
@@ -716,8 +716,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "oreja de palo duro",
       uso: "Escribir-Es",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 41A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 41B.jpg", caption: "Figura B"},
+       
       ]
     },
     {
@@ -732,9 +733,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "hongo del suelo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 42A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 42B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 42C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -749,9 +750,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "hongo del suelo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 43A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 43B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 43C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -766,9 +767,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "hongo de palo viejo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 44A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 44B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 44C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -783,9 +784,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "hongo de palo viejo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 45A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 45B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 45C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -800,9 +801,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "hongo de palo viejo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 46A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 46B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 46C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -817,8 +818,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "hongo de palo viejo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 47A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 47B.jpg", caption: "Figura B"},
+        
       ]
     },
     {
@@ -833,8 +835,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "hongo de palo viejo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 48A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 48B.jpg", caption: "Figura B"},
+       
       ]
     },
      
@@ -851,8 +854,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "hongo de palo viejo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 49A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 49B.jpg", caption: "Figura B"},
+       
       ]
     },
     {
@@ -867,9 +871,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "hongo de palo viejo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 50A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 50B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 50C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -884,9 +888,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "hongo de palo viejo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 51A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 51B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 51C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -901,9 +905,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "pambazo",
       uso: "alimenticio",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 52A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 52B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 52C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -918,9 +922,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "oreja de palo duro",
       uso: "escritura-ES",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 53A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 53B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 53C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -935,9 +939,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "orejas de palo duras",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 54A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 54B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 54C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -952,9 +956,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "hongos del suelo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 55A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 55B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 55C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -969,9 +973,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "hongos del suelo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" },
-        { "url": "/images/", "caption": "Figura C" }
+        { url: "/images/fungusCol/Cepa 56A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 56B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 56C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -986,8 +990,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "hongo de palo viejo",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 57A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 57B.jpg", caption: "Figura B"},
+       
       ]
     },
     {
@@ -1002,8 +1007,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "orejas de palo duras",
       uso: "No uso",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 58A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 58B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 58C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -1018,8 +1024,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "pedo de duende o pedorro",
       uso: "medicinal-hemostático",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 59A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 59B.jpg", caption: "Figura B"},
+        
       ]
     },
     {
@@ -1034,8 +1041,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "kallambas",
       uso: "alimenticio",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 60A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 60B.jpg", caption: "Figura B"},
+        { url: "/images/fungusCol/Cepa 60C.jpg", caption: "Figura C"},
       ]
     },
     {
@@ -1050,8 +1058,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "kallambas/callambas, orejas de palo",
       uso: "alimenticio",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 61A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 61B.jpg", caption: "Figura B"},
+        
       ]
     },
     {
@@ -1066,8 +1075,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
       CommonName: "pedo de duende o pedorro",
       uso: "medicinal-hemostático",
       images: [
-        { "url": "/images/", "caption": "Figura A" },
-        { "url": "/images/", "caption": "Figura B" }
+        { url: "/images/fungusCol/Cepa 62A.jpg", caption: "Figura A"},
+        { url: "/images/fungusCol/Cepa 62B.jpg", caption: "Figura B"},
+      
       ]
     }
     
