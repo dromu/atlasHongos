@@ -7,7 +7,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "1",
       name: "Ganoderma ",
-      autorFecha: "sp. (sf. Australe) (P.Karst., 1881)",
+      autorFecha: "sp. (sf. australe) (P.Karst. 1881)",     //australe en cursiva 
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae.",
       fechaRecol: "05/11/2019",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -65,7 +65,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "4",
       name: "Inonoptus ",
-      autorFecha: "sp.  (P. Karst., 1879)",
+      autorFecha: "sp.  (P. Karst. 1879)",
       scientificName: "Basidiomycota- Agaricomycetes- Hymenochaetales- Hymenochaetaceae",
       fechaRecol: "05/11/2019",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -73,7 +73,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-Tinciòn de Melzer: basidiosporas globosa-subglobosa, marrón rojizas, pared gruesa y lisas, de 4x3 micras. Reacción con KOH: positivo (cambia a color negro)." ,
       habitat: "Gregario, crece en madera",
       CommonName: "Oreja de palo duro.",
-      uso: "Para escribir-ES-",
+      uso: "Para escribir-ES o rayar",
       images: [
         { url: "/images/fungusCol/Cepa 4A.jpg", caption: "Figura A" },
         { url: "/images/fungusCol/Cepa 4B.jpg", caption: "Figura B"  }
@@ -84,7 +84,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "5",
       name: "Ganoderma ",
-      autorFecha: "sp. (P. Karst., 1881)",
+      autorFecha: "sp. (P. Karst. 1881)",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "05/11/2019",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -92,7 +92,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-Tinción de Melzer: basidiosporas globosa-subglobosa, marrón rojizas con pared gruesa y lisas, tamaño de espora: 3 x 6 ųm. Hifas degenerativas de pared gruesa con septos simples." ,
       habitat: "Gregario, crece en madera",
       CommonName: "Oreja de palo duro",
-      uso: "Para escribir-ES",
+      uso: "Para escribir-ES o rayar",
       images: [
         { url: "/images/fungusCol/Cepa 5A.jpg", caption: "Figura A" },
         { url: "/images/fungusCol/Cepa 5B.jpg", caption: "Figura B"  },
@@ -142,7 +142,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "8",
       name: "Lentinus crinitus",
-      autorFecha: "(L.) Fr., 1825",
+      autorFecha: "(L.) Fr. 1825",
       scientificName: "Basidiomycota- Agaricomycetes-Polyporales-Polyporaceae",
       fechaRecol: "25/01/2020",
       localidad: "Colombia, Cauca, Puracé, Vereda San Alfonso",
@@ -253,7 +253,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     
     {
       id: "14",
-      name: "Lepiota cf. cristata. ",
+      name: "Lepiota cf. cristata. ",   // Cf. sin cursiva
       autorFecha: "(Bolton) P. Kumm 1871",
       scientificName: "Basidiomycota-Agaricales-Agaricomycetes-Agaricaceae",
       fechaRecol: "25/01/2020",
@@ -274,7 +274,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "15",
       name: "Suillus luteus ",
-      autorFecha:"(L.: Fries) Gray",
+      autorFecha:"(L. Fries) Gray",
       scientificName: "Basidiomycota-Boletales-Agaricomycetes-Suillaceae",
       fechaRecol: "02/07/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Campamento",
@@ -332,9 +332,9 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "18",
       name: "Lentinus swaetzii ",
-      autorFecha: "Berk., 1843",
+      autorFecha: "Berk. 1843",
       scientificName: "Basidiomycota-Agaricomycetes-Poliporales-Poliporaceae",
-      fechaRecol: " 30/07/2021",
+      fechaRecol: "30/07/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Ambiro Bajo",
       descriptionMacro: "Figura A. Píleo 1-5 cm de diámetro, plano, color amarillo ocre, aspecto algodonoso.",
       descriptionMicro: "Figura B-KOH. Esporas 10-11x2 µm de diámetro",
@@ -389,7 +389,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "021",
       name: "Panaeolus fimicula. ",
-      autorFecha: "(Fr., 1872)",
+      autorFecha: "(Fr. 1872)",
       scientificName: "Basidiomycota-Agaromycetes-Agaricales-Incertae sedis",
       fechaRecol: "13/08/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda 20 de julio",
@@ -480,7 +480,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "026",
       name: "Lentinus crinitus ",
-      autorFecha:"(L.) Fr., 1825",
+      autorFecha:"(L.) Fr. 1825",
       scientificName: "Basidiomycota-Agaricomycetes-Polyporales-Polyporaceae",
       fechaRecol: "22/10/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Chapio",
@@ -516,7 +516,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "028",
       name: "Phellinus sf pini. ",
-      autorFecha:"(Brot.: Fr.)",
+      autorFecha:"(Brot. Fr.)",
       scientificName: "Basidiomycota-Agaricomycetes-Hymenochaetales-Hymenochaetaceae",
       fechaRecol: "22/10/2021",
       localidad: "Colombia, Cauca, Puracé. Pueblo",
@@ -571,7 +571,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "031",
       name: "Lentinus crinitus ",
-      autorFecha: "(L.) Fr., 1825",
+      autorFecha: "(L.) Fr. 1825",
       scientificName: "Basidiomycota- Agaricomycetes-Poliporales-Poliporaceae",
       fechaRecol: "05/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -658,7 +658,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "036",
       name: "Suillus luteus ",
-      autorFecha: "(L.: Fries) Gray",
+      autorFecha: "(L. Fries) Gray",
       scientificName: "Basidiomycota-Boletales-Agaricomycetes-Suillaceae",
       fechaRecol: "29/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -694,7 +694,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "038",
       name: "Poliporal ",
-      autorFecha: "(c.f Trametes sp.)",
+      autorFecha: "(c.f Trametes sp.)",   //trametes en cursiva 
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "29/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
@@ -713,7 +713,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "039",
       name: "Poliporal",
-      autorFecha: "(c.f Trametes sp.)",
+      autorFecha: "(c.f Trametes sp.)", //trametes en cursiva 
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "29/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -764,7 +764,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "042",
-      name: "Morchella cf. esculenta. ",
+      name: "Morchella cf. esculenta. ", //cf normal no cursiva 
       autorFecha: "(L) Pers. 1794 (F.r.)",
       scientificName: "Ascomycota-Pezizomycetes-Pezizalez-Morchellaceae",
       fechaRecol: "21/02/2022",
@@ -818,7 +818,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "045",
-      name: "Poliporal c.f. Trametes nivosa.",
+      name: "Poliporal c.f. Trametes nivosa.",   //cf no cursiva
       autorFecha: " Berk. Murrill (1907)",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "12/08/2022",
@@ -836,7 +836,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "046",
-      name: "Poliporal c.f. Trametes pubescens. ",
+      name: "Poliporal c.f. Trametes pubescens. ",    // cf no cursiva //trametes cursiva
       autorFecha: "(Schumach.) Pilát (1939)",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "12/08/2022",
@@ -855,7 +855,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "047",
       name: "Poliporal",
-      autorFecha: "(c.f Trametes sp.)",
+      autorFecha: "(c.f Trametes sp.)", //trametes cursiva
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "12/08/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
@@ -947,7 +947,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "052",
       name: "Suillus luteus ",
-      autorFecha: "(L.: Fries) Gray",
+      autorFecha: "(L. Fries) Gray",
       scientificName: "Basidiomycota-Boletales-Agaricomycetes-Suillaceae",
       fechaRecol: "12/08/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda 20 de julio",
@@ -973,7 +973,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-Azul de lactofenol. Espora 4x4 µm de diámetro",
       habitat: "Solitario, crece adherido en madera",
       CommonName: "Oreja de palo duro",
-      uso: "escritura-ES",
+      uso: "Escritura-ES",
       images: [
         { url: "/images/fungusCol/Cepa 53A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 53B.jpg", caption: "Figura B"},
@@ -1019,7 +1019,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "056",
       name: "Hidrocybe acutonica ",
-      autorFecha: "(Clem,) Singer 1951",
+      autorFecha: "(Clem) Singer 1951",
       scientificName: "Basidiomycota-Agaricomycetes-Agaricales-Hydrophoraceae",
       fechaRecol: "12/09/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
@@ -1143,21 +1143,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       ]
     }
     
-    
 
-    
-    
-    
-
-    
-
-    
-
-    
-
-
-    
-    // Agrega más hongos según sea necesario
   ]
 }
 
