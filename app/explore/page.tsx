@@ -16,9 +16,13 @@ export default async function ExplorePage() {
       <BackButton />
       <h1 className="text-3xl font-bold mb-8 text-primary">DESCRIPCIÓN DE LOS HONGOS DE INTERÉS BIOCULTURAL POR EL PUEBLO KOKONUKO DEL MUNICIPIO DE PURACÉ (2019-2022)</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols- gap-6">
+       
+       
         {fungi.map((fungus) => (
           <FungusCard key={fungus.id} fungus={fungus}  />
         ))}
+
+
       </div>
 
       <Button asChild className="mt-4 bg-primary text-primary-foreground hover:bg-primary/90">

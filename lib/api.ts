@@ -1142,7 +1142,6 @@ export async function getAllFungi(): Promise<Fungus[]> {
       
       ]
     }
-    
 
   ]
 }

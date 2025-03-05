@@ -17,9 +17,27 @@ export default async function FungusPage({ params }: { params: { id: string } })
       <Card className="mb-8">
         <CardHeader>
         <CardTitle style={{ color: "#404040" }}>Colección {fungus.id}</CardTitle>
-        <CardTitle className="text-3xl font-bold text-primary italic">
+        
+        {/* <CardTitle className="text-3xl font-bold text-primary italic">
           {fungus.name} <span className="not-italic text-3xl font-bold text-primary">{fungus.autorFecha}</span>
-        </CardTitle>
+        </CardTitle> */}
+
+        
+        <CardTitle className="text-3xl font-bold text-primary italic">
+          {fungus.name.split(/(\*[^*]+\*)/g).map((part, index) =>
+            part.startsWith("*") && part.endsWith("*") ? (
+              <span key={index} className="italic">{part.slice(1, -1)}</span>
+            ) : (
+              part
+            )
+          )}
+          <span className="not-italic text-3xl font-semibold mb-2">
+            {fungus.autorFecha}
+          </span>
+        </CardTitle> 
+
+
+
           <p className="text-x  text-muted">{fungus.scientificName}</p>
         </CardHeader>
         <CardContent>

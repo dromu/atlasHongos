@@ -26,7 +26,19 @@ export default function FungusCard({ fungus}: FungusCardProps) {
                 <CardTitle className="text-xl font-semibold mb-2 italic">
                   {fungus.name} <span className="not-italic text-xl font-semibold mb-2">{fungus.autorFecha}</span>
                 </CardTitle>
-                <p className="text-sm text-muted-foreground">{fungus.scientificName.substring(0, 100)}...</p>
+                {/* <p className="text-sm text-muted-foreground">{fungus.scientificName.substring(0, 100)}...</p> */}
+
+                <p className="text-sm text-muted-foreground">
+                {fungus.scientificName.substring(0, 100).split(/(\*[^*]+\*)/g).map((part, i) =>
+                  part.startsWith("*") && part.endsWith("*") ? (
+                    <i key={i}>{part.slice(1, -1)}</i>
+                  ) : (
+                    part
+                  )
+                )}
+                ...
+              </p>
+                
                 
               </div>
               <div className="ml-4 w-24 h-24 relative overflow-hidden rounded-md">
