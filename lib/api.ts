@@ -15,7 +15,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-KOH basidios claviformes, Figura C. basidiosporas elipsoidales de 5 x 10 micras color café con ornamentación tipo ganodermatoides (KOH 100x)." ,
       habitat: "Gregario, crece en madera",
       CommonName: "Oreja de palo duro",
-      uso: "Para escribir-ES- ",
+      uso: "Para escribir-ES o rayar ",
       images: [
         { url: "/images/fungusCol/Cepa 1A.jpg", caption: "Figura A" },
         { url: "/images/fungusCol/Cepa 1B.jpg", caption: "Figura B" },
@@ -53,7 +53,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura D. basiodiosporas de 4x2 cilíndricas alantoides (rojo congo-100x), hialinas (KOH-100x), inamiliodes en el reactivo de Melzer." ,
       habitat: "Gregario o dispersos sobre troncos en descomposición.",
       CommonName: "Hongo de palo viejo",
-      uso: "No uso por la comunidad",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 3A.jpg", caption: "Figura A" },
         { url: "/images/fungusCol/Cepa 3B.jpg", caption: "Figura B" },
@@ -130,7 +130,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-Tinción de Melzer. basidioesporas de 12-20 x 7-10 (100x) de color café lisas de pared gruesa." ,
       habitat: "Gregario, crece en excreta de ganado.",
       CommonName: "Hongo de la boñiga-sombrilla",
-      uso: "No uso",
+      uso: "No uso por esta comunidad ",
       images: [
         { url: "/images/fungusCol/Cepa 7A.jpg", caption: "Figura A" },
         { url: "/images/fungusCol/Cepa 7B.jpg", caption: "Figura B"  },
@@ -150,7 +150,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-KOH: basidiosporas hialinas de 5-9x2 µm" ,
       habitat: "Tronco enterrado en potrero, Hábito: gregario",
       CommonName: "Hongo de palos caídos, podridos, viejos, secos.",
-      uso: "No uso",
+      uso: "No uso por esta comunidad ",
       images: [
         { url: "/images/fungusCol/Cepa 8A.jpg", caption: "Figura A" },
         { url: "/images/fungusCol/Cepa 8B.jpg", caption: "Figura B"  },
@@ -225,7 +225,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-Tinción de Melzer: esporas de 12-20 x 7-10 (100x) de color café lisas de pared gruesa.",
       habitat: "Gregario, crece en excreta de ganado. ",
       CommonName: "Hongo de excreta de ganado-sombrilla",
-      uso: "No uso",
+      uso: "No uso por esta comunidad ",
       images: [
         { url: "/images/fungusCol/Cepa 12A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 12B.jpg", caption: "Figura B"},
@@ -262,7 +262,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-KOH. Esporas elipsoidales de tamaño 10-13x 7-8 µl, de paredes lisas y con numerosas gotitas de grasa en su interior, con poro germinativo pequeño pero evidente.",
       habitat: "Disperso, crece en suelo",
       CommonName: "Hongo del suelo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 14A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 14B.jpg", caption: "Figura B"},
@@ -302,7 +302,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-Azul de lactofenol. Esporas globosas, subglobosas, ovoides o algo alargadas e irregulares, de 10-15x10 µm, de color pardo verdoso, con una pared de 0.5 µm de grosor, finamente equinulada.",
       habitat: "Gregario, crece en maíz",
       CommonName: "Hongo del maiz",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 16A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 16B.jpg", caption: "Figura B"},
@@ -321,7 +321,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-KOH. Esporas de 8x8 refringentes con pequeñas espículas y una vacuola.",
       habitat: "Disperso, crece en suelo",
       CommonName: "Hongo del palo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 17A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 17B.jpg", caption: "Figura B"},
@@ -340,7 +340,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-KOH. Esporas 10-11x2 µm de diámetro",
       habitat: "Gregario, crece en madera",
       CommonName: "Hongo del palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 18A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 18B.jpg", caption: "Figura B"},
@@ -358,7 +358,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-C-Tinción de Mezlar. Esporas de 8 x 3 µm de diámetro",
       habitat: "Gregario, crece en madera",
       CommonName: "Hongo de palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 19A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 19B.jpg", caption: "Figura B"},
@@ -378,7 +378,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-Tinciòn de Mezlar. Basidios con esporas alargadas 9x3 µm",
       habitat: "Gregario, crece en madera seca",
       CommonName: "Hongo de palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 20A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 20B.jpg", caption: "Figura B"},
@@ -397,7 +397,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-KOH. Esporas ovoides lisas de 11x7 µm (100x), con poro germinativo excéntrico y amiloides",
       habitat: "Gregario, crece en excreta de ganado",
       CommonName: "Hongo de boñiga de ganado",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 21A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 21B.jpg", caption: "Figura B"},
@@ -416,7 +416,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-KOH. Esporas de 2-3x2µm de diámetro (100x)",
       habitat: "Gregario, crece en tronco de árbol",
       CommonName: "Hongo de palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 22A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 22B.jpg", caption: "Figura B"},
@@ -452,7 +452,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-KOH. Basidios con esporas de 10-11x8-10 µm (100x) de diámetro de formas tetraédricas, inamiloides con reactivo de Melzer.",
       habitat: "Creciendo solitario sobre el suelo.",
       CommonName: "Hongo del suelo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 24A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 24B.jpg", caption: "Figura B"},
@@ -470,7 +470,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-KOH-C-Tinciòn de Mezlar. Esporas elípticas de 13x6µm de diámetro, de pared gruesa",
       habitat: "No especificado",
       CommonName: "Hongo del suelo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 25A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 25B.jpg", caption: "Figura B"},
@@ -488,7 +488,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-Tinción de mezlar. Esporas 6x2µm (100x) de diámetro de pared fina, cilíndricas, alargadas de forma entre recta y algo curvadas, con apícula lateral y con una o varias vacuolas muy tenues en su interior. Reacción inamiloide al Melzer.",
       habitat: "No especificado",
       CommonName: "Hongo de palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 26A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 26B.jpg", caption: "Figura B"},
@@ -506,7 +506,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-KOH. Esporas elípticas lisas de 8-10 x5 µm de diámetro (100x), poro germinal",
       habitat: "No especificado",
       CommonName: "Hongo del suelo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 27A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 27B.jpg", caption: "Figura B"},
@@ -524,7 +524,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-Tinción de Melzer. Basidiosporas subglobosas de pared gruesa 12x7 micras de diámetro (100x)",
       habitat: "No especificado",
       CommonName: "Oreja de palo duro",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 28A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 28B.jpg", caption: "Figura B"},
@@ -560,7 +560,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-Azul de lactofenol. Esporas elipsoides, lisas de 12-16 X 5-7.5 µm, oscuras, con hendidura germinal recta de menor tamaño que la longitud de la espora.",
       habitat: "No especificado",
       CommonName: "Hongo de palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 30A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 30B.jpg", caption: "Figura B"},
@@ -579,7 +579,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-KOH. basidiosporas hialinas de 5-9x2 µm",
       habitat: "Creciendo gregario sobre madera en descomposición",
       CommonName: "Hongo de palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 31A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 31B.jpg", caption: "Figura B"},
@@ -596,7 +596,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-KOH. Esporas de 12x8 µm de diámetro (100x)",
       habitat: "No especificado",
       CommonName: "Hongo del suelo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 32A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 32B.jpg", caption: "Figura B"},
@@ -632,7 +632,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-Tinciòn de Melzer. Esporas de 3x3µm de diámetro (100x).",
       habitat: "No especificado",
       CommonName: "Hongo del suelo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 34A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 34B.jpg", caption: "Figura B"},
@@ -649,7 +649,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-KOH. Esporas de 4x4µm de diámetro con espiculas",
       habitat: "No especificado",
       CommonName: "Hongo del suelo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 35A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 35B.jpg", caption: "Figura B"},
@@ -684,7 +684,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Esporas de 4x4µm de diámetro con espiculas",
       habitat: "No especificado",
       CommonName: "Hongo del suelo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 37A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 37B.jpg", caption: "Figura B"},
@@ -702,7 +702,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-Tinciòn de Melzer. Basidios con esporas de 3x3µm de diámetro (100x).",
       habitat: "Troncos de árboles",
       CommonName: "Hongo de tronco",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 38A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 38B.jpg", caption: "Figura B"},
@@ -721,7 +721,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-Tinciòn de Melzer. Esporas de 5x5µm de diámetro (100x).",
       habitat: "No especificado",
       CommonName: "hongo de palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 39A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 39B.jpg", caption: "Figura B"},
@@ -738,7 +738,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-KOH. Esporas de 10x 6-8 µm de diámetro (100x).",
       habitat: "No especificado",
       CommonName: "Hongo del suelo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 40A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 40B.jpg", caption: "Figura B"},
@@ -755,7 +755,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-KOH Esporas de 9x4µm de diámetro",
       habitat: "No especificado",
       CommonName: "oreja de palo duro",
-      uso: "Escribir-Es",
+      uso: "Escribir-Es o rayar",
       images: [
         { url: "/images/fungusCol/Cepa 41A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 41B.jpg", caption: "Figura B"},
@@ -773,7 +773,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-Tinciòn de Melzer. Esporas 9-15x4-8 µm de diámetro",
       habitat: "No especificado",
       CommonName: "Hongo del suelo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 42A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 42B.jpg", caption: "Figura B"},
@@ -791,7 +791,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-KOH. Esporas hialinas de 6x3µm de diámetro",
       habitat: "No especificado",
       CommonName: "Hongo del suelo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 43A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 43B.jpg", caption: "Figura B"},
@@ -809,7 +809,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-KOH. Esporas de 2-3x2µm de diámetro (100x)",
       habitat: "Gregario, crece en tronco de árbol",
       CommonName: "Hongo de palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 44A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 44B.jpg", caption: "Figura B"},
@@ -827,7 +827,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-KOH esporas de 7x2 µm de diámetro",
       habitat: "Gregario, crece en tronco de árbol",
       CommonName: "Hongo de palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 45A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 45B.jpg", caption: "Figura B"},
@@ -845,7 +845,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figuras B-KOH C. Tinción de melzer. Esporas ovaladas de 3x2µm de diámetro",
       habitat: "Gregario, crece en tronco de árbol, causa podredumbre blanca",
       CommonName: "Hongo de palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 46A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 46B.jpg", caption: "Figura B"},
@@ -863,7 +863,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-KOH: esporas hialinas 1.8x2.3µm de diámetro",
       habitat: "Gregario, crece en tronco de árbol",
       CommonName: "Hongo de palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 47A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 47B.jpg", caption: "Figura B"},
@@ -881,7 +881,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-KOH. Esporas de 6x2 µm de diámetro",
       habitat: "Gregario, crece en tronco de árbol",
       CommonName: "Hongo de palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad ",
       images: [
         { url: "/images/fungusCol/Cepa 48A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 48B.jpg", caption: "Figura B"},
@@ -901,7 +901,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-Tinciòn de melzer: espora 6x3µm de diámetro (100x)",
       habitat: "No especificado",
       CommonName: "Hongo de palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad",
       images: [
         { url: "/images/fungusCol/Cepa 49A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 49B.jpg", caption: "Figura B"},
@@ -919,7 +919,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-Tinciòn de Melzer: esporas 5-7 x 2-3 µm de diámetro",
       habitat: "No especificado",
       CommonName: "Hongo de palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad ",
       images: [
         { url: "/images/fungusCol/Cepa 50A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 50B.jpg", caption: "Figura B"},
@@ -937,7 +937,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-KOH. Se observan ascas con 4 ascosporas de 18x6µm de diámetro",
       habitat: "No especificado",
       CommonName: "Hongo de palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad ",
       images: [
         { url: "/images/fungusCol/Cepa 51A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 51B.jpg", caption: "Figura B"},
@@ -991,7 +991,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "FiguraB-C-Tinciòn de Melzer: Esporas de 4x2µm de diámetro",
       habitat: "Gregario, crece adherido a madera",
       CommonName: "Orejas de palo duras",
-      uso: "No uso",
+      uso: "No uso por esta comunidad ",
       images: [
         { url: "/images/fungusCol/Cepa 54A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 54B.jpg", caption: "Figura B"},
@@ -1009,7 +1009,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura B-Tinciòn de Melzer- Figura C-Azul de Lactofenol. Esporas maduras son muy alargadas y fusiformes, contienen pequeñas vacuolas de sustancia de reserva que se aprecian verdosas. Las esporas presentan un apículo recurvado por donde se sujetaban al basidio. Tamaño 8-10x4-6µm de diámetro (100X)",
       habitat: "Saprofita en suelo, crece cerca de ramas caídas",
       CommonName: "Hongos del suelo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad ",
       images: [
         { url: "/images/fungusCol/Cepa 55A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 55B.jpg", caption: "Figura B"},
@@ -1027,7 +1027,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-KOH. Esporas globosas de 6-12x5-8µm de diámetro (100x)",
       habitat: "Creciendo solitario y gregario sobre suelo",
       CommonName: "Hongos del suelo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad ",
       images: [
         { url: "/images/fungusCol/Cepa 56A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 56B.jpg", caption: "Figura B"},
@@ -1045,7 +1045,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figuras B-C-KOH, basidios con esporas de 5x3 micras con terminación en espículas",
       habitat: "Gregario, crece adherido a madera",
       CommonName: "Hongo de palo viejo",
-      uso: "No uso",
+      uso: "No uso por esta comunidad ",
       images: [
         { url: "/images/fungusCol/Cepa 57A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 57B.jpg", caption: "Figura B"},
@@ -1063,7 +1063,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
       descriptionMicro: "Figura C-KOH. Esporas 9-10x5-6µm de diámetro",
       habitat: "Solitarios, crecen adherido a madera",
       CommonName: "Orejas de palo duras",
-      uso: "No uso",
+      uso: "No uso por esta comunidad ",
       images: [
         { url: "/images/fungusCol/Cepa 58A.jpg", caption: "Figura A"},
         { url: "/images/fungusCol/Cepa 58B.jpg", caption: "Figura B"},
