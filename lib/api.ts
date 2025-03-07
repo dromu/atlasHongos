@@ -7,7 +7,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "1",
       name: "Ganoderma ",
-      autorFecha: "sp. (sf. australe) (P.Karst. 1881)",     //australe en cursiva 
+      autorFecha: "sp. (sf. *australe*) (P.Karst. 1881)",     //australe en cursiva 
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae.",
       fechaRecol: "05/11/2019",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -180,7 +180,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
 
     {
       id: "10",
-      name: "Pleurotus djamor.",
+      name: "Pleurotus djamor. ",
       autorFecha: "(Fr.) P. Kumm.",
       scientificName: "Basidiomycota- Agaricomycetes- Agaricales- Pleurotaceae",
       fechaRecol: "25/01/2020",
@@ -253,7 +253,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     
     {
       id: "14",
-      name: "Lepiota cf. cristata. ",   // Cf. sin cursiva
+      name: "Lepiota *cf.* cristata. ",   // Cf. sin cursiva
       autorFecha: "(Bolton) P. Kumm 1871",
       scientificName: "Basidiomycota-Agaricales-Agaricomycetes-Agaricaceae",
       fechaRecol: "25/01/2020",
@@ -694,7 +694,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "038",
       name: "Poliporal ",
-      autorFecha: "(c.f Trametes sp.)",   //trametes en cursiva 
+      autorFecha: "(c.f *Trametes* sp.)",   //trametes en cursiva 
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "29/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",
@@ -712,8 +712,8 @@ export async function getAllFungi(): Promise<Fungus[]> {
     
     {
       id: "039",
-      name: "Poliporal",
-      autorFecha: "(c.f Trametes sp.)", //trametes en cursiva 
+      name: "Poliporal ",
+      autorFecha: "(c.f *Trametes* sp.)", //trametes en cursiva 
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "29/11/2021",
       localidad: "Colombia, Cauca, Puracé, Vereda Patico",
@@ -746,7 +746,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "041",
-      name: "Poliporal",
+      name: "Poliporal ",
       autorFecha: "Fr. ex Corda",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "29/11/2021",
@@ -764,7 +764,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "042",
-      name: "Morchella cf. esculenta. ", //cf normal no cursiva 
+      name: "Morchella *cf*. esculenta. ", //cf normal no cursiva 
       autorFecha: "(L) Pers. 1794 (F.r.)",
       scientificName: "Ascomycota-Pezizomycetes-Pezizalez-Morchellaceae",
       fechaRecol: "21/02/2022",
@@ -818,7 +818,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "045",
-      name: "Poliporal c.f. Trametes nivosa.",   //cf no cursiva
+      name: "Poliporal *c.f.* Trametes nivosa.",   //cf no cursiva
       autorFecha: " Berk. Murrill (1907)",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "12/08/2022",
@@ -836,7 +836,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     },
     {
       id: "046",
-      name: "Poliporal c.f. Trametes pubescens. ",    // cf no cursiva //trametes cursiva
+      name: "Poliporal *c.f.* Trametes pubescens. ",    // cf no cursiva //trametes cursiva
       autorFecha: "(Schumach.) Pilát (1939)",
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "12/08/2022",
@@ -855,7 +855,7 @@ export async function getAllFungi(): Promise<Fungus[]> {
     {
       id: "047",
       name: "Poliporal",
-      autorFecha: "(c.f Trametes sp.)", //trametes cursiva
+      autorFecha: "(c.f *Trametes* sp.)", //trametes cursiva
       scientificName: "Basidiomycota-Basidiomycetes-Poliporales-Poliporaceae",
       fechaRecol: "12/08/2022",
       localidad: "Colombia, Cauca, Puracé, Vereda Hispala",

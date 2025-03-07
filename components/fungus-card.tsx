@@ -24,7 +24,27 @@ export default function FungusCard({ fungus}: FungusCardProps) {
 
 
                 <CardTitle className="text-xl font-semibold mb-2 italic">
-                  {fungus.name} <span className="not-italic text-xl font-semibold mb-2">{fungus.autorFecha}</span>
+                  {/* {fungus.name} <span className="not-italic text-xl font-semibold mb-2">{fungus.autorFecha}</span> */}
+
+                  {fungus.name.split(/(\*[^*]+\*)/g).map((part, index) =>
+                    part.startsWith("*") && part.endsWith("*") ? (
+                      <span key={index} className="not-italic">{part.slice(1, -1)}</span>
+                    ) : (
+                      part
+                    )
+                  )}
+             
+                  <span className="not-italic text-xl font-semibold mb-2">
+                    {fungus.autorFecha.split(/(\*[^*]+\*)/g).map((part, index) =>
+                      part.startsWith("*") && part.endsWith("*") ? (
+                        <span key={`autor-${index}`} className="italic">{part.slice(1, -1)}</span>
+                      ) : (
+                        part
+                      )
+                    )}
+                  </span>
+
+
                 </CardTitle>
                 {/* <p className="text-sm text-muted-foreground">{fungus.scientificName.substring(0, 100)}...</p> */}
 

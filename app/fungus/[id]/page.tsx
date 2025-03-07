@@ -24,18 +24,27 @@ export default async function FungusPage({ params }: { params: { id: string } })
 
         
         <CardTitle className="text-3xl font-bold text-primary italic">
+     
+          
           {fungus.name.split(/(\*[^*]+\*)/g).map((part, index) =>
             part.startsWith("*") && part.endsWith("*") ? (
-              <span key={index} className="italic">{part.slice(1, -1)}</span>
+              <span key={index} className="not-italic">{part.slice(1, -1)}</span>
             ) : (
               part
             )
           )}
-          <span className="not-italic text-3xl font-semibold mb-2">
-            {fungus.autorFecha}
-          </span>
-        </CardTitle> 
 
+
+          <span className="not-italic text-3xl font-semibold mb-2">
+            {fungus.autorFecha.split(/(\*[^*]+\*)/g).map((part, index) =>
+              part.startsWith("*") && part.endsWith("*") ? (
+                <span key={`autor-${index}`} className="italic">{part.slice(1, -1)}</span>
+              ) : (
+                part
+              )
+            )}
+          </span>
+        </CardTitle>
 
 
           <p className="text-x  text-muted">{fungus.scientificName}</p>

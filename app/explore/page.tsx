@@ -22,7 +22,6 @@ export default async function ExplorePage() {
           <FungusCard key={fungus.id} fungus={fungus}  />
         ))}
 
-
       </div>
 
       <Button asChild className="mt-4 bg-primary text-primary-foreground hover:bg-primary/90">
@@ -33,11 +32,7 @@ export default async function ExplorePage() {
 
     </div>
     
-        
-    
-
   )
-  
 
 }
 
