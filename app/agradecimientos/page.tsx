@@ -85,15 +85,17 @@ export default function AgradecimientosPage() {
         Y finalmente a la Universidad del Cauca por ser mi segunda casa durante tantos años….
         </p>
 
-
-
-
-          <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
+            <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
             <Link href="/">
               <Home className="mr-2 h-4 w-4" /> Volver a la Página Principal
             </Link>
           </Button>
         </CardContent>
+
+
+
+        
+
       </Card>
     </div>
   )

@@ -75,6 +75,14 @@ export default function Home() {
               </Button>
             </div>
           </div>
+
+
+          
+
+          <p className="text-s text-foreground mt-4">
+          2025. Atlas de Hongos Macromicetos. Todos los derechos reservados.
+          </p>
+
         </CardContent>
       </Card>
     </main>
