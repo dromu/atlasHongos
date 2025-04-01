@@ -48,9 +48,9 @@ export default function ProloguePage() {
 
         <p className="mb-6 text-foreground text-justify mx-auto max-w-2xl">
           Este material fotográfico y descripciones son parte del producto de la tesis doctoral 
-          <i>"Los Hongos Macromicetos como Patrimonio Biocultural del Pueblo Kokonuko en el Municipio de Puracé" </i> 
+          <i>Los Hongos Macromicetos como Patrimonio Biocultural del Pueblo Kokonuko en el Municipio de Puracé </i> 
           PhD Fabiola E González C. Proyecto de Investigación 
-          <i> "La Jigrapucha de la Conservación: Tejiendo Vínculos Culturales para la Conservación de la Agrobiodiversidad en el Municipio de Puracé"</i> 
+          <i> La Jigrapucha de la Conservación: Tejiendo Vínculos Culturales para la Conservación de la Agrobiodiversidad en el Municipio de Puracé</i> 
           ID 4851/VRI Unicauca-Grupo de Investigación GELA.
           </p>
 
